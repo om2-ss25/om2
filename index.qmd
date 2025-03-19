@@ -1,0 +1,137 @@
+# Seminar
+
+Dear Students,
+
+Welcome to our seminar 👋   
+Below are the links to the presentations.
+
+I look forward to our discussions!
+
+Best regards,  
+Jan Kirenz
+
+
+
+
+## Materials
+
+### 1. Basics
+
+::: {.callout-note}
+### Online Presentation
+
+[Introduction](https://kirenz.github.io/prompting-slides/grundlagen#/title-slide) 
+
+:::
+
+<a class="btn btn-primary" href="1-Introduction.pdf" download>
+  📄 Download PDF
+</a>
+
+---
+
+### 2. Microsoft Copilot
+
+
+::: {.callout-note}
+### Online Presentation
+
+[Microsoft Copilot](https://kirenz.github.io/prompting-slides/copilot#/title-slide) 
+
+:::
+
+<a class="btn btn-primary" href="2-Microsoft-Copilot.pdf" download>
+  📄 Download PDF
+</a>
+
+
+---
+
+### 3. Prompting Basics
+
+::: {.callout-note}
+### Online Presentation
+
+[Prompting Basics](https://kirenz.github.io/prompting-slides/prompting-basics#/)
+
+:::
+
+<a class="btn btn-primary" href="3-Prompting-Basics.pdf" download>
+  📄 Download PDF
+</a>
+
+
+
+### 4. COMPASS
+
+::: {.callout-note}
+### Online Presentation
+
+[COMPASS](https://kirenz.github.io/prompting-slides/compass#/title-slide) 
+
+:::
+
+<a class="btn btn-primary" href="4-COMPASS.pdf" download>
+  📄 Download PDF
+</a>
+
+
+---
+
+### 5. Prompting Techniques
+
+::: {.callout-note}
+### Online Presentation
+
+[Prompting Techniques](https://kirenz.github.io/prompting-slides/prompting-techniques#/title-slide) 
+:::
+
+<a class="btn btn-primary" href="5-Prompting-Techniques.pdf" download>
+  📄 Download PDF
+</a>
+
+
+
+---
+
+### 6. Prompting Tasks
+
+::: {.callout-note}
+### Online Presentation
+
+[Prompting Tasks](https://kirenz.github.io/prompting-slides/tasks#/title-slide)
+
+:::
+
+<a class="btn btn-primary" href="6-Prompting-Tasks.pdf" download>
+  📄 Download PDF
+</a>
+
+
+
+### 7. Microsoft Copilot Agents
+
+::: {.callout-note}
+### Online Presentation
+
+[Agents](https://kirenz.github.io/prompting-slides/copilot-agents#/title-slide)
+
+:::
+
+<a class="btn btn-primary" href="7-Agents.pdf" download>
+  📄 Download PDF
+</a>
+
+
+---
+
+
+## Chatbots
+
+| Chatbot         | Provider    | Link     | Notes |
+|-----------------|------------|-----------|----------|
+| Copilot Chat | Microsoft  | [Copilot Chat](https://copilot.microsoft.com) | Uses OpenAI's GPT-4 |
+| ChatGPT       | OpenAI     | [ChatGPT](https://chatgpt.com) | Offers numerous features |
+| Claude     | Anthropic  | [Claude](https://www.anthropic.com/claude) | Particularly strong in coding |
+| Le Chat      | Mistral    | [Le Chat](https://chat.mistral.ai/chat) | European company |
+| R1          | DeepSeek   | [R1](https://chat.deepseek.com/sign_in) | China-based model |

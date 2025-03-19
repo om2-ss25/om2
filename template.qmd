@@ -1,0 +1,330 @@
+---
+title: "[TITLE]"
+subtitle: "[SUBTITLE]"
+author: [AUTHOR]
+execute:
+  eval: true
+  echo: false
+highlight-style: github-dark
+format:
+  revealjs: 
+    reference-location: document
+    toc: false
+    toc-depth: 1
+    embed-resources: false
+    theme: [default, custom.scss]
+    incremental: true
+    transition: none
+    background-transition: fade
+    transition-speed: slow
+    code-copy: true
+    code-line-numbers: false
+    smaller: false
+    scrollable: true
+    slide-number: false
+    preview-links: auto
+    chalkboard: 
+      buttons: true
+      theme: whiteboard
+    logo: images/logo.png
+    footer: "[FOOTER]"
+    template-partials:
+      - title-slide.html 
+title-slide-attributes:
+  data-background-color: "#ffffff"
+---
+
+## [TABLE OF CONTENTS]
+
+:::: {.features}
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 1]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 2]
+:::
+
+:::
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 3]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 4]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 5]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 6]
+:::
+
+:::
+
+
+::::
+
+
+# [MAIN SECTION 1] {background-gradient="linear-gradient(to bottom, #0073E6, #1E90FF)"}
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="30%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="70%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]  
+- **[KEY POINT 2]**: [DESCRIPTION]  
+- **[KEY POINT 3]**: [DESCRIPTION]  
+- **[KEY POINT 4]**:  
+  - **[SUB-POINT 1]** [DESCRIPTION]  
+  - **[SUB-POINT 2]** [DESCRIPTION]  
+
+:::
+::::
+
+
+
+## [SLIDE TITLE] {.smaller}
+
+
+- **[BULLET POINT 1]**: [DESCRIPTION]  
+- **[BULLET POINT 2]**: [DESCRIPTION]  
+- **[BULLET POINT 3]**: [DESCRIPTION]  
+- **[BULLET POINT 4]**: [DESCRIPTION]  
+
+
+
+# [MAIN SECTION 2] {background-gradient="linear-gradient(to bottom, #1E90FF, #00BFFF)"}
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]
+- **[KEY POINT 2]**: [DESCRIPTION]
+- **[KEY POINT 3]**: [DESCRIPTION]
+
+:::
+::::
+
+
+::: {.callout-warning .fragment .fade-down appearance="minimal"}
+
+[WARNING MESSAGE]
+:::
+
+::: {.callout-tip .fragment .fade-down appearance="minimal"}
+
+[TIP MESSAGE]
+
+:::
+
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]
+- **[KEY POINT 2]**: [DESCRIPTION]
+- **[KEY POINT 3]**: [DESCRIPTION]
+
+:::
+::::
+
+
+
+## [SLIDE TITLE WITH ANIMATION OR MEDIA]
+
+
+![](images/[ANIMATION-FILENAME].gif)
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]
+- **[KEY POINT 2]**: [DESCRIPTION]
+- **[KEY POINT 3]**: [DESCRIPTION]
+
+:::
+::::
+
+
+# [MAIN SECTION 3] {background-gradient="linear-gradient(to bottom, #FFD700, #FFA500)"}
+
+
+## [SLIDE TITLE] {.smaller}
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- [CONTENT]
+- [IMPORTANT NOTE]
+
+:::
+::::
+
+::: {.callout-tip .fragment .fade-down appearance="minimal"}
+
+[TIP MESSAGE]
+
+:::
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]
+- **[KEY POINT 2]**: [DESCRIPTION]
+
+:::
+::::
+
+
+## [SLIDE TITLE WITH ANIMATION OR MEDIA]
+
+
+![](images/[ANIMATION-FILENAME].gif)
+
+## [SLIDE TITLE] {.smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment .fade-right}
+
+![Image Description](images/[IMAGE-FILENAME].png){width=100%}
+
+:::
+::: {.column width="50%" .fragment .fade-right}
+
+- **[KEY POINT 1]**: [DESCRIPTION]
+- **[KEY POINT 2]**: [DESCRIPTION]
+- **[KEY POINT 3]**: [DESCRIPTION]
+
+:::
+::::
+
+
+# [MEDIA EMBED EXAMPLE]
+
+## [VIDEO TITLE]
+
+{{< video https://youtu.be/[VIDEO-ID] width="1920" height="1080" >}}
+
+
+# [CATALOG SECTION] {background-gradient="linear-gradient(to bottom, #1E90FF, #0073E6)"}
+
+## [CATALOG TITLE] 
+
+![](images/[CATALOG-IMAGE].png)
+
+[🔗 Link Title](https://example.com)
+
+
+# Summary
+
+:::: {.features}
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 1]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 2]
+:::
+
+:::
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 3]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 4]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 5]
+:::
+
+:::
+
+
+::: {.feature .fragment .fade-in}
+:::{.feature-header}
+[SECTION 6]
+:::
+
+:::
+
+
+::::
