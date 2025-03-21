@@ -7,19 +7,38 @@ execute:
   freeze: auto
 
 website:
-  title: "TITLE"
+  title: "Market Research"
   navbar:
     left:
       - href: index.qmd
         text: Home
 
+  sidebar:
+    background: "#ffffff"
+    logo: "images/logo.jpg"
+    pinned: true
+    align: center
 
+
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "Course information"
+        contents:
+          - href: index.qmd
+            text: Semester Overview
+          - href: semester.qmd
+            text: Weekly Overview
+          - href: syllabus.qmd
+            text: Syllabus  
+     
 
 format:
   html:
     toc: false
     theme: cosmo
-    css: theme.scss
+    css: custom.scss
     code-copy: true
     highlight-style: github-dark
     code-overflow: wrap

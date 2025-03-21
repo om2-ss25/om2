@@ -1,137 +1,42 @@
-# Seminar
-
-Dear Students,
-
-Welcome to our seminar 👋   
-Below are the links to the presentations.
-
-I look forward to our discussions!
-
-Best regards,  
-Jan Kirenz
-
-
-
-
-## Materials
-
-### 1. Basics
-
-::: {.callout-note}
-### Online Presentation
-
-[Introduction](https://kirenz.github.io/prompting-slides/grundlagen#/title-slide) 
-
-:::
-
-<a class="btn btn-primary" href="1-Introduction.pdf" download>
-  📄 Download PDF
-</a>
-
+---
+title: "Online Marketing 2"
+subtitle: "Content overview"
 ---
 
-### 2. Microsoft Copilot
+This page contains an outline of the topics and content for the course.
 
-
-::: {.callout-note}
-### Online Presentation
-
-[Microsoft Copilot](https://kirenz.github.io/prompting-slides/copilot#/title-slide) 
-
+:::{.callout-note}
+This schedule will be updated as the semester progresses.
 :::
 
-<a class="btn btn-primary" href="2-Microsoft-Copilot.pdf" download>
-  📄 Download PDF
-</a>
+|	Nr	|	Topic 	|	Material	|	More resources	|	
+|	---	|	---	|	---	|	---	|	
+|		|	**Introduction** 	|		|		|	
+|	1	|	Project introduction	|	[📑](https://docs.google.com/presentation/d/1_8gaysH0zhJ5HK4VG989ONsF5uSb99HKvTbhCn1fCew/edit?usp=sharing)	|		|	
+|	2	|	Generative AI	|	[🖥️ Slides](https://kirenz.github.io/slides/genai/genai)	|		|	
+|	3	|	Large Language Models	|	[🖥️ Slides](https://kirenz.github.io/slides/llm/llm)	|		|	
+|	4	|	Programming toolkit lab	|	[💻 Online-Book](https://kirenz.github.io/toolkit-de/)	|		|	
 
 
----
-
-### 3. Prompting Basics
-
-::: {.callout-note}
-### Online Presentation
-
-[Prompting Basics](https://kirenz.github.io/prompting-slides/prompting-basics#/)
-
-:::
-
-<a class="btn btn-primary" href="3-Prompting-Basics.pdf" download>
-  📄 Download PDF
-</a>
-
-
-
-### 4. COMPASS
-
-::: {.callout-note}
-### Online Presentation
-
-[COMPASS](https://kirenz.github.io/prompting-slides/compass#/title-slide) 
-
-:::
-
-<a class="btn btn-primary" href="4-COMPASS.pdf" download>
-  📄 Download PDF
-</a>
-
-
----
-
-### 5. Prompting Techniques
-
-::: {.callout-note}
-### Online Presentation
-
-[Prompting Techniques](https://kirenz.github.io/prompting-slides/prompting-techniques#/title-slide) 
-:::
-
-<a class="btn btn-primary" href="5-Prompting-Techniques.pdf" download>
-  📄 Download PDF
-</a>
-
-
-
----
-
-### 6. Prompting Tasks
-
-::: {.callout-note}
-### Online Presentation
-
-[Prompting Tasks](https://kirenz.github.io/prompting-slides/tasks#/title-slide)
-
-:::
-
-<a class="btn btn-primary" href="6-Prompting-Tasks.pdf" download>
-  📄 Download PDF
-</a>
-
-
-
-### 7. Microsoft Copilot Agents
-
-::: {.callout-note}
-### Online Presentation
-
-[Agents](https://kirenz.github.io/prompting-slides/copilot-agents#/title-slide)
-
-:::
-
-<a class="btn btn-primary" href="7-Agents.pdf" download>
-  📄 Download PDF
-</a>
-
-
----
-
-
-## Chatbots
-
-| Chatbot         | Provider    | Link     | Notes |
-|-----------------|------------|-----------|----------|
-| Copilot Chat | Microsoft  | [Copilot Chat](https://copilot.microsoft.com) | Uses OpenAI's GPT-4 |
-| ChatGPT       | OpenAI     | [ChatGPT](https://chatgpt.com) | Offers numerous features |
-| Claude     | Anthropic  | [Claude](https://www.anthropic.com/claude) | Particularly strong in coding |
-| Le Chat      | Mistral    | [Le Chat](https://chat.mistral.ai/chat) | European company |
-| R1          | DeepSeek   | [R1](https://chat.deepseek.com/sign_in) | China-based model |
+<!-- 
+|		|	**Use Case Definition** (3.11.23)	|		|		|	
+|	5	|	Data Science Lifecycle Overview	|	[📑](https://docs.google.com/presentation/d/1LR0LmvKFycE3MIjfDEp6L_bGdJtCOe60rFycWIYayBI/export/pdf)	|		|	
+|	6	|	Use case identification	|	[📑](https://docs.google.com/presentation/d/1RT7IhYgLgNJ8RiT28sMr8Mfyk5y_e-rfYg3jRsPKGEA/export/pdf)	|		|	
+|	7	|	Value Creation Optimization 	|	[📑](https://drive.google.com/file/d/1ivNrca-sRmefay4t3_FVLDH3Mn-p5CgF/view?usp=drive_link)	|		|	
+|		|	**Prompt Engineering** (8.11.23)	|		|		|	
+|	8	|	Prompt Engineering	|	[💻 Lab](https://kirenz.github.io/lab-prompt)	|	[📖](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)	|	
+|	9	|	Building a Chat System	|	[💻 Lab](https://kirenz.github.io/lab-chat-system)	|	[📖](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/)	|	
+|		|	**LangChain** (10.11.23)	|		|		|	
+|	10	|	LangChain Basics	|	[💻 Lab](https://kirenz.github.io/lab-langchain-basics)	|	[📖](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)	|	
+|	11	|	LangChain RAG	|	[💻 Lab](https://kirenz.github.io/lab-langchain-rag)	|	[📖](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)	|	
+|	12	|	Functions, Tools and Agents with LangChain	|	[💻 Lab](https://kirenz.github.io/lab-langchain-functions/)	|	[📖](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)	|	
+|		|	**Semantic Kernel** (15.11.23)	|		|		|	
+|	13	|	Microsoft Semantic Kernel	|	[💻 Lab](https://kirenz.github.io/lab-semantic-kernel)	|	[📖](https://www.deeplearning.ai/short-courses/microsoft-semantic-kernel/)	|	
+|		|	**HuggingFace** (15.11.23)	|		|		|	
+|	14	|	HuggingFace 	|	[💻 Lab](https://kirenz.github.io/lab-huggingface)	|		|	
+|		|	**Dashboards** (22.11.23)	|		|		|	
+|	15	|	Build Apps with Gradio	|	[💻 Lab](https://kirenz.github.io/lab-llm-gradio)	|	[📖](https://www.deeplearning.ai/short-courses/building-generative-ai-applications-with-gradio/)	|	
+|	16	|	Build Apps with Streamlit	|	[💻 Lab](https://github.com/kirenz/streamlit-app)	|		|	
+|	17	|	State of Streamlit LLM Apps 2023	|	[Apps](https://state-of-llm.streamlit.app/)	|		|	
+|		|	**Assistants API & GPTs**	|		|		|	
+|	18	|	First steps with Assistants API	|	[💻 Lab](https://kirenz.github.io/lab-assistants-api/)	|		|	 -->
