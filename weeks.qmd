@@ -17,8 +17,8 @@ A properly configured development environment is crucial for efficient coding. I
 
 The GitHub Student Developer Pack provides students with free access to the best developer tools.
 
-1. Visit [GitHub Student Developer Pack](https://education.github.com/pack?)
-2. Click on "Get your pack"
+1. Visit [GitHub Student Developer Pack](https://education.github.com/pack?)  
+2. Click on "Get your pack"  
 3. Sign in with your GitHub account (or create one if you don't have it)
 4. Verify your student status using your school-issued email
 5. Complete the application form
@@ -46,12 +46,14 @@ During installation on Windows, check the options "Add 'Open with Code' action t
 To be able to open VS Code from the command line interface using `code .` command:
 
 **For Windows:**
+
 1. Open VS Code
 2. Press `Ctrl+Shift+P` to open the Command Palette
 3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
 4. Restart your terminal for changes to take effect
 
 **For macOS:**
+
 1. Open VS Code
 2. Press `Cmd+Shift+P` to open the Command Palette
 3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
@@ -71,12 +73,14 @@ In VS Code, click on the Extensions icon in the sidebar (or press: Windows `Ctrl
 3. Click "Install"
 
 **GitHub Copilot**  
+
 1. Search for "GitHub Copilot" in the Extensions marketplace
 2. Click "Install"
 3. After installation, sign in with your GitHub account using the account icon in the lower left sidebar
 4. You'll be prompted to authorize VS Code to use GitHub Copilot
 
 **GitHub Copilot Chat**  
+
 1. Search for "GitHub Copilot Chat" in the Extensions marketplace
 2. Click "Install"
 3. This extension works alongside GitHub Copilot to provide conversational AI assistance
@@ -220,18 +224,21 @@ You should see a "Hello, world!" message appear. This confirms that:
 
 **Package Installation Problems**  
 If you see errors when adding packages:
+
 1. Check that you're connected to the internet
 2. Try running `uv sync` again to refresh your environment
 3. Read the error message carefully - it often tells you exactly what went wrong
 
 **"Command Not Found" Error**  
 If your computer can't find the `uv` command:
+
 1. Close your terminal completely and open a new one
 2. If that doesn't work, you might need to add uv to your PATH (the list of places your computer looks for programs)
 3. As a last resort, try reinstalling using the commands from Step 4
 
 **VS Code Extensions Not Working**  
 If the extensions we installed aren't behaving correctly:
+
 1. Make sure you've signed in to your GitHub account in VS Code
 2. Try updating VS Code to the latest version
 3. You can reinstall extensions by uninstalling them first, then installing again
