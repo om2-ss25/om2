@@ -7,7 +7,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Market Research"
+  title: "Online Marketing 2"
   navbar:
     left:
       - href: index.qmd
@@ -15,7 +15,7 @@ website:
 
   sidebar:
     background: "#ffffff"
-    logo: "images/logo.jpg"
+    logo: "images/logo.png"
     pinned: true
     align: center
 
@@ -26,13 +26,14 @@ website:
     contents:
       - section: "Course information"
         contents:
-          - href: index.qmd
-            text: Semester Overview
-          - href: semester.qmd
-            text: Weekly Overview
           - href: syllabus.qmd
             text: Syllabus  
-     
+          - href: index.qmd
+            text: Semester Overview
+          - href: weeks.qmd
+            text: Weekly Overview
+          - href: project-description.qmd
+            text: Project Description       
 
 format:
   html:

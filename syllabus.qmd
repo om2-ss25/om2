@@ -1,0 +1,105 @@
+---
+title: "Syllabus"
+toc: true
+---
+
+
+## Course info
+
+|           | Day       | Time                  | Location    |
+|-----------|-----------|-------------------    |-------------|
+| Exercise    | Wednesday | 10:45 - 11:30   |  [Room s205](https://horst.hdm-stuttgart.de/S205) |
+| Lecture   | Wednesday | 11:45 - 13:15   |  [Room s205](https://horst.hdm-stuttgart.de/S205)|
+
+
+
+## Learning objectives
+
+In this course you will gain skills in the following domains:
+
+
+1. **Generative Artificial Intelligence:**
+   - Understand the basics of Generative AI.
+   - Explore prompt engineering.
+   - Create your own marketing applications using Python.
+
+2. **Mastery of Analytical Tools:**
+   - Gain proficiency in using Google Analytics and other web analytics tools to gather and analyze data.
+   - Implement web tracking to monitor user interactions and gather actionable insights.
+
+3. **Data Analysis and Visualization:**
+   - Conduct data analysis using Excel, SQL and Python + Pandas.
+   - Create and interpret dashboards for marketing analysis.
+   - Design and build applications with dashboards to visualize data and insights.
+   - Customize dashboards for marketing analysts to enable data-driven decision-making.
+
+
+## Assessment
+
+Assessment for the course is comprised of these components: 
+
+1. Google Analytics 4 Certificate
+2. Creation of a Generative AI Marketing Application
+3. E-Exam
+
+
+*Late submission policy for task 1 and 2: 25% point reduction per 24-hour period*
+
+
+
+### Google Analytics Certificate
+
+In this course, a pivotal assessment entails obtaining the - [Google Analytics](https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification) from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data. 
+
+By undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course. 
+
+The certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally. 
+
+
+### Generative AI Application 
+
+Create a Generative AI application for a marketing purpose. More details are provided in the [project description](project-description.qmd)
+
+The focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data. 
+
+Additionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.
+
+By creating a Generatice AI-driven marketing application, you'll demonstrate your understanding of foundational concepts in generative AI.
+
+More information about the specific requirements will be provided during the semester.
+
+
+## Exam {#sec-exams}
+
+There will be one E-exam at the end of the semester. More details about the exam will be given during the semester.
+
+
+# Grading
+
+The final course grade will be calculated as follows:
+
+| Category              | Points            |
+|-----------------------|-----------------  |
+| 1. Google Analytics Certificate         | 10 |
+| 2. Generative AI application            | 30 |
+| 3. E-Exam                               | 60 |
+
+
+The final grade will be determined based on the following thresholds:
+
+|  Grade       | Final Course Grade |
+|--------------|--------------------|
+| 1.0           | 96 - 100          |
+| 1.3           | 91 - 95           |
+| 1.7           | 85 - 90           |
+| 2.0           | 80 - 84           |
+| 2.3           | 75 - 79           |
+| 2.7           | 70 - 74           |
+| 3.0           | 65 - 69           |
+| 3.3           | 60 - 64           |
+| 3.7           | 55 - 59           |
+| 4.0            | 50 - 54          |
+| 4.7           | 15 - 49           |
+| 5.0            | 0 - 14           |
+
+

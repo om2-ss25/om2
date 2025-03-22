@@ -1,5 +1,65 @@
 [
   {
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "AI Marketing Agent Project",
+    "section": "",
+    "text": "Build a generative AI application for marketing or sales that demonstrates your mastery of AI prompt engineering and application development in Python. Use the OpenAI API to create a functional, ethical solution with practical business value.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#application-areas",
+    "href": "project-description.html#application-areas",
+    "title": "AI Marketing Agent Project",
+    "section": "Application Areas",
+    "text": "Application Areas\n\nAdvertising copy generation\nProduct descriptions\nMarketing strategy development\nCampaign ideation\nPersonalized customer communications\nSocial media content optimization\nEmail marketing automation\nSales pitch creation\nMarket analysis reports\n…",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#project-requirements",
+    "href": "project-description.html#project-requirements",
+    "title": "AI Marketing Agent Project",
+    "section": "Project Requirements",
+    "text": "Project Requirements\n\nGitHub Repository\n\nCreate a private GitHub repository named “genai”\nInclude complete source code with clear organization\nProvide a comprehensive README.md containing:\n\nProject overview and business objectives\nClear installation and setup instructions (you need to use uv to setup the project)\nUsage guide with examples\nTechnical implementation details\nReflection on challenges and learnings\n\n\n\n\nAI Agent Implementation\n\nDesign an AI agent tailored to a specific marketing/sales use case\nImplement advanced prompt engineering techniques\nDocument your prompt strategy with examples\nIncorporate ethical considerations and guardrails\nOptimize API usage for cost and performance\n\n\n\nApplication Development\n\nBuild a responsive UI using Streamlit, Gradio, React, or NextJS\nInclude these core features:\n\nIntuitive input fields for marketing parameters\nLanguage switching capability (German/English)\nResults display with formatting options\nRefinement controls for outputs\nExport functionality or usage of APIs (text, etc.)\n\nImplement error handling, input validation, and user feedback\n\n\n\nDemo Video\n\nCreate a 2-minute screencast demonstrating:\n\nCore application workflow\nKey technical features\nImplementation challenges and solutions\nBusiness value and real-world applications",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#submission-process",
+    "href": "project-description.html#submission-process",
+    "title": "AI Marketing Agent Project",
+    "section": "Submission Process",
+    "text": "Submission Process\n\nUpload to Moodle:\n\nGitHub repository link (ensure you’ve added me as a collaborator)\nDemo video link\n\nDeadline: May 30, 2025, 23:59 CET\n\nLate submission policy: 25% point reduction per 24-hour period",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#evaluation-criteria",
+    "href": "project-description.html#evaluation-criteria",
+    "title": "AI Marketing Agent Project",
+    "section": "Evaluation Criteria",
+    "text": "Evaluation Criteria\nTotal: 100 points (80 points required to pass)\n\nTechnical Implementation (45 points)\n\nAI agent functionality and performance (35)\n\nPrompt engineering effectiveness (15)\nOutput quality and relevance (10)\nError handling and edge cases (5)\nAPI integration (5)\n\nGitHub repository quality (10)\n\nCode organization and documentation (5)\nCommit history and collaboration readiness (5)\n\n\n\n\nInnovation & Applicability (25 points)\n\nOriginality of concept (15)\n\nNovel application of AI techniques (10)\nCreative problem-solving (5)\n\nBusiness value (10)\n\nMarket relevance (5)\nImplementation feasibility (5)\n\n\n\n\nDocumentation (20 points)\n\nREADME.md quality (10)\n\nCompleteness and clarity (5)\nTechnical accuracy (5)\n\nPrompt engineering documentation (10)\n\nTechnique explanation (5)\nPerformance analysis (5)\n\n\n\n\nPresentation (10 points)\n\nVideo demo effectiveness (10)\n\nFeature demonstration (5)\nCommunication clarity (5)",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
     "objectID": "template.html#table-of-contents",
     "href": "template.html#table-of-contents",
     "title": "[TITLE]",
@@ -119,11 +179,107 @@
     "href": "index.html",
     "title": "Online Marketing 2",
     "section": "",
-    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nNr\nTopic\nMaterial\nMore resources\n\n\n\n\n\nIntroduction\n\n\n\n\n1\nProject introduction\n📑\n\n\n\n2\nGenerative AI\n🖥️ Slides\n\n\n\n3\nLarge Language Models\n🖥️ Slides\n\n\n\n4\nProgramming toolkit lab\n💻 Online-Book",
+    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n\n\nGenerative AI\n\n\n\n1\n1\nIntroduction\n📄 PDF",
     "crumbs": [
       "Home",
       "Course information",
       "Semester Overview"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-info",
+    "href": "syllabus.html#course-info",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nIn this course you will gain skills in the following domains:\n\nGenerative Artificial Intelligence:\n\nUnderstand the basics of Generative AI.\nExplore prompt engineering.\nCreate your own marketing applications using Python.\n\nMastery of Analytical Tools:\n\nGain proficiency in using Google Analytics and other web analytics tools to gather and analyze data.\nImplement web tracking to monitor user interactions and gather actionable insights.\n\nData Analysis and Visualization:\n\nConduct data analysis using Excel, SQL and Python + Pandas.\nCreate and interpret dashboards for marketing analysis.\nDesign and build applications with dashboards to visualize data and insights.\nCustomize dashboards for marketing analysts to enable data-driven decision-making.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assessment",
+    "href": "syllabus.html#assessment",
+    "title": "Syllabus",
+    "section": "Assessment",
+    "text": "Assessment\nAssessment for the course is comprised of these components:\n\nGoogle Analytics 4 Certificate\nCreation of a Generative AI Marketing Application\nE-Exam\n\nLate submission policy for task 1 and 2: 25% point reduction per 24-hour period\n\nGoogle Analytics Certificate\nIn this course, a pivotal assessment entails obtaining the - Google Analytics from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data.\nBy undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course.\nThe certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally.\n\n\nGenerative AI Application\nCreate a Generative AI application for a marketing purpose. More details are provided in the project description\nThe focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data.\nAdditionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.\nBy creating a Generatice AI-driven marketing application, you’ll demonstrate your understanding of foundational concepts in generative AI.\nMore information about the specific requirements will be provided during the semester.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-exams",
+    "href": "syllabus.html#sec-exams",
+    "title": "Syllabus",
+    "section": "Exam",
+    "text": "Exam\nThere will be one E-exam at the end of the semester. More details about the exam will be given during the semester.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "weeks.html",
+    "href": "weeks.html",
+    "title": "Weekly overview",
+    "section": "",
+    "text": "Welcome to this guide on setting up your Python development environment using the powerful package manager called uv.\nA properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The uv package manager we’ll be using is a modern, fast alternative to traditional Python package managers.\n\n\nThe GitHub Student Developer Pack provides students with free access to the best developer tools.\n\nVisit GitHub Student Developer Pack\nClick on “Get your pack”\nSign in with your GitHub account (or create one if you don’t have it)\nVerify your student status using your school-issued email\nComplete the application form\nWait for approval (usually takes 1-7 days)\n\nWhy this matters: The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.\n\n\n\nVS Code is a lightweight but powerful source code editor.\n\nGo to VS Code download page\nDownload the appropriate version for your operating system\nRun the installer and follow the on-screen instructions\nLaunch VS Code after installation\n\n\n\n\n\n\n\nPro Tip for Microsoft\n\n\n\n\n\nDuring installation on Windows, check the options “Add ‘Open with Code’ action to Windows Explorer file context menu” and “Add ‘Open with Code’ action to Windows Explorer directory context menu” for easier access.\n\n\n\nAdding VS Code to PATH (Command Line Access)\nTo be able to open VS Code from the command line interface using code . command:\nFor Windows: 1. Open VS Code 2. Press Ctrl+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\nFor macOS: 1. Open VS Code 2. Press Cmd+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\n\n\n\nExtensions enhance VS Code with additional features. We’ll install three key extensions.\nIn VS Code, click on the Extensions icon in the sidebar (or press: Windows Ctrl+Shift+X / mac: Cmd+Shift+X).\nPython Extension\n\nSearch for “Python”\nFind the extension by Microsoft (usually the first result)\nClick “Install”\n\nGitHub Copilot\n1. Search for “GitHub Copilot” in the Extensions marketplace 2. Click “Install” 3. After installation, sign in with your GitHub account using the account icon in the lower left sidebar 4. You’ll be prompted to authorize VS Code to use GitHub Copilot\nGitHub Copilot Chat\n1. Search for “GitHub Copilot Chat” in the Extensions marketplace 2. Click “Install” 3. This extension works alongside GitHub Copilot to provide conversational AI assistance\n\n\n\n\n\n\nNote: GitHub Copilot requires a subscription, but it’s free with the GitHub Student Developer Pack you applied for in Step 1.\n\n\n\n\n\n\nuv is a fast, modern Python package manager and resolver.\nFor Windows (PowerShell):\n\nOpen PowerShell\nRun the following command:\n\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nRestart your PowerShell session to ensure uv is in your PATH\n\nFor macOS/Linux (Terminal):\n\nOpen Terminal\nRun the following command:\n\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nIf your system doesn’t have curl, you can use wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\nClose and reopen your terminal to ensure uv is in your PATH\n\nVerify installation: Type uv --version in your command line interface. You should see the version number of uv displayed.\n\n\n\nNow let’s create a new Python project structure using uv:\n\nOpen your command line interface (PowerShell on Windows or Terminal on Mac/Linux)\nSimply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., cd Documents)\nRun the following command to initialize a new project named “genai-app” with Python 3.11:\n\nuv init genai-app --python 3.11\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a new directory called genai-app\nSets up a project structure with Python 3.11\nCreates initial configuration files\n\n\n\n\n\n\n\nLet’s move into your newly created project directory:\ncd genai-app\nCheck the directory contents: You can use dir (Windows) or ls (macOS/Linux) to see what files were created.\n\n\n\nA virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:\nuv sync\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a virtual environment for your project\nSets up the environment based on your project’s specifications\nThis environment is isolated from your system Python installation\n\n\n\n\nLet’s execute the example Python file main.py to make sure everything is working:\npython3 main.py\nYou should see a “Hello, world” message.\n\n\n\nLet’s add some commonly used packages for AI and data science projects:\nuv add pandas python-dotenv openai gradio streamlit\n\n\n\n\n\n\nWhat these packages do\n\n\n\n\n\n\npandas: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)\npython-dotenv: Helps keep your passwords and API keys safe by storing them in a separate file\nopenai: Connects your code to AI services like ChatGPT\ngradio: Creates simple web interfaces for your AI projects with minimal coding\nstreamlit: Turns your Python scripts into interactive web apps with just a few lines of code\n\n\n\n\n\n\n\nNow let’s open your new project in VS Code where we’ll write our code:\ncode .\nThis command tells your computer to open VS Code in your current folder (the . means “here”).\nIf this command doesn’t work, don’t worry! You can also: 1. Open VS Code manually 2. Click on “File” in the top menu 3. Select “Open Folder…” 4. Find and select your genai-app folder\n\n\n\nLet’s make sure everything is working by running the example file:\npython3 main.py\nYou should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!\n\n\n\nPackage Installation Problems\nIf you see errors when adding packages: 1. Check that you’re connected to the internet 2. Try running uv sync again to refresh your environment 3. Read the error message carefully - it often tells you exactly what went wrong\n“Command Not Found” Error\nIf your computer can’t find the uv command: 1. Close your terminal completely and open a new one 2. If that doesn’t work, you might need to add uv to your PATH (the list of places your computer looks for programs) 3. As a last resort, try reinstalling using the commands from Step 4\nVS Code Extensions Not Working\nIf the extensions we installed aren’t behaving correctly: 1. Make sure you’ve signed in to your GitHub account in VS Code 2. Try updating VS Code to the latest version 3. You can reinstall extensions by uninstalling them first, then installing again\n\n\n\n\nuv Documentation\nVS Code Python Tutorial\n\n\n\n\nCongratulations! You’ve successfully set up a Python development environment using uv. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.\nHappy coding! 💻✨",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#week-1",
+    "href": "weeks.html#week-1",
+    "title": "Weekly overview",
+    "section": "",
+    "text": "Welcome to this guide on setting up your Python development environment using the powerful package manager called uv.\nA properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The uv package manager we’ll be using is a modern, fast alternative to traditional Python package managers.\n\n\nThe GitHub Student Developer Pack provides students with free access to the best developer tools.\n\nVisit GitHub Student Developer Pack\nClick on “Get your pack”\nSign in with your GitHub account (or create one if you don’t have it)\nVerify your student status using your school-issued email\nComplete the application form\nWait for approval (usually takes 1-7 days)\n\nWhy this matters: The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.\n\n\n\nVS Code is a lightweight but powerful source code editor.\n\nGo to VS Code download page\nDownload the appropriate version for your operating system\nRun the installer and follow the on-screen instructions\nLaunch VS Code after installation\n\n\n\n\n\n\n\nPro Tip for Microsoft\n\n\n\n\n\nDuring installation on Windows, check the options “Add ‘Open with Code’ action to Windows Explorer file context menu” and “Add ‘Open with Code’ action to Windows Explorer directory context menu” for easier access.\n\n\n\nAdding VS Code to PATH (Command Line Access)\nTo be able to open VS Code from the command line interface using code . command:\nFor Windows: 1. Open VS Code 2. Press Ctrl+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\nFor macOS: 1. Open VS Code 2. Press Cmd+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\n\n\n\nExtensions enhance VS Code with additional features. We’ll install three key extensions.\nIn VS Code, click on the Extensions icon in the sidebar (or press: Windows Ctrl+Shift+X / mac: Cmd+Shift+X).\nPython Extension\n\nSearch for “Python”\nFind the extension by Microsoft (usually the first result)\nClick “Install”\n\nGitHub Copilot\n1. Search for “GitHub Copilot” in the Extensions marketplace 2. Click “Install” 3. After installation, sign in with your GitHub account using the account icon in the lower left sidebar 4. You’ll be prompted to authorize VS Code to use GitHub Copilot\nGitHub Copilot Chat\n1. Search for “GitHub Copilot Chat” in the Extensions marketplace 2. Click “Install” 3. This extension works alongside GitHub Copilot to provide conversational AI assistance\n\n\n\n\n\n\nNote: GitHub Copilot requires a subscription, but it’s free with the GitHub Student Developer Pack you applied for in Step 1.\n\n\n\n\n\n\nuv is a fast, modern Python package manager and resolver.\nFor Windows (PowerShell):\n\nOpen PowerShell\nRun the following command:\n\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nRestart your PowerShell session to ensure uv is in your PATH\n\nFor macOS/Linux (Terminal):\n\nOpen Terminal\nRun the following command:\n\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nIf your system doesn’t have curl, you can use wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\nClose and reopen your terminal to ensure uv is in your PATH\n\nVerify installation: Type uv --version in your command line interface. You should see the version number of uv displayed.\n\n\n\nNow let’s create a new Python project structure using uv:\n\nOpen your command line interface (PowerShell on Windows or Terminal on Mac/Linux)\nSimply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., cd Documents)\nRun the following command to initialize a new project named “genai-app” with Python 3.11:\n\nuv init genai-app --python 3.11\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a new directory called genai-app\nSets up a project structure with Python 3.11\nCreates initial configuration files\n\n\n\n\n\n\n\nLet’s move into your newly created project directory:\ncd genai-app\nCheck the directory contents: You can use dir (Windows) or ls (macOS/Linux) to see what files were created.\n\n\n\nA virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:\nuv sync\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a virtual environment for your project\nSets up the environment based on your project’s specifications\nThis environment is isolated from your system Python installation\n\n\n\n\nLet’s execute the example Python file main.py to make sure everything is working:\npython3 main.py\nYou should see a “Hello, world” message.\n\n\n\nLet’s add some commonly used packages for AI and data science projects:\nuv add pandas python-dotenv openai gradio streamlit\n\n\n\n\n\n\nWhat these packages do\n\n\n\n\n\n\npandas: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)\npython-dotenv: Helps keep your passwords and API keys safe by storing them in a separate file\nopenai: Connects your code to AI services like ChatGPT\ngradio: Creates simple web interfaces for your AI projects with minimal coding\nstreamlit: Turns your Python scripts into interactive web apps with just a few lines of code\n\n\n\n\n\n\n\nNow let’s open your new project in VS Code where we’ll write our code:\ncode .\nThis command tells your computer to open VS Code in your current folder (the . means “here”).\nIf this command doesn’t work, don’t worry! You can also: 1. Open VS Code manually 2. Click on “File” in the top menu 3. Select “Open Folder…” 4. Find and select your genai-app folder\n\n\n\nLet’s make sure everything is working by running the example file:\npython3 main.py\nYou should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!\n\n\n\nPackage Installation Problems\nIf you see errors when adding packages: 1. Check that you’re connected to the internet 2. Try running uv sync again to refresh your environment 3. Read the error message carefully - it often tells you exactly what went wrong\n“Command Not Found” Error\nIf your computer can’t find the uv command: 1. Close your terminal completely and open a new one 2. If that doesn’t work, you might need to add uv to your PATH (the list of places your computer looks for programs) 3. As a last resort, try reinstalling using the commands from Step 4\nVS Code Extensions Not Working\nIf the extensions we installed aren’t behaving correctly: 1. Make sure you’ve signed in to your GitHub account in VS Code 2. Try updating VS Code to the latest version 3. You can reinstall extensions by uninstalling them first, then installing again\n\n\n\n\nuv Documentation\nVS Code Python Tutorial\n\n\n\n\nCongratulations! You’ve successfully set up a Python development environment using uv. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.\nHappy coding! 💻✨",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#python-setup-with-uv",
+    "href": "weeks.html#python-setup-with-uv",
+    "title": "Weekly overview",
+    "section": "",
+    "text": "Welcome to this guide on setting up your Python development environment using the powerful package manager called uv.\nA properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The uv package manager we’ll be using is a modern, fast alternative to traditional Python package managers.\n\n\nThe GitHub Student Developer Pack provides students with free access to the best developer tools.\n\nVisit GitHub Student Developer Pack\nClick on “Get your pack”\nSign in with your GitHub account (or create one if you don’t have it)\nVerify your student status using your school-issued email\nComplete the application form\nWait for approval (usually takes 1-7 days)\n\nWhy this matters: The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.\n\n\n\nVS Code is a lightweight but powerful source code editor.\n\nGo to VS Code download page\nDownload the appropriate version for your operating system\nRun the installer and follow the on-screen instructions\nLaunch VS Code after installation\n\n\n\n\n\n\n\nPro Tip for Microsoft\n\n\n\n\n\nDuring installation on Windows, check the options “Add ‘Open with Code’ action to Windows Explorer file context menu” and “Add ‘Open with Code’ action to Windows Explorer directory context menu” for easier access.\n\n\n\nAdding VS Code to PATH (Command Line Access)\nTo be able to open VS Code from the command line interface using code . command:\nFor Windows: 1. Open VS Code 2. Press Ctrl+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\nFor macOS: 1. Open VS Code 2. Press Cmd+Shift+P to open the Command Palette 3. Type “shell command” and select “Shell Command: Install ‘code’ command in PATH” 4. Restart your terminal for changes to take effect\n\n\n\nExtensions enhance VS Code with additional features. We’ll install three key extensions.\nIn VS Code, click on the Extensions icon in the sidebar (or press: Windows Ctrl+Shift+X / mac: Cmd+Shift+X).\nPython Extension\n\nSearch for “Python”\nFind the extension by Microsoft (usually the first result)\nClick “Install”\n\nGitHub Copilot\n1. Search for “GitHub Copilot” in the Extensions marketplace 2. Click “Install” 3. After installation, sign in with your GitHub account using the account icon in the lower left sidebar 4. You’ll be prompted to authorize VS Code to use GitHub Copilot\nGitHub Copilot Chat\n1. Search for “GitHub Copilot Chat” in the Extensions marketplace 2. Click “Install” 3. This extension works alongside GitHub Copilot to provide conversational AI assistance\n\n\n\n\n\n\nNote: GitHub Copilot requires a subscription, but it’s free with the GitHub Student Developer Pack you applied for in Step 1.\n\n\n\n\n\n\nuv is a fast, modern Python package manager and resolver.\nFor Windows (PowerShell):\n\nOpen PowerShell\nRun the following command:\n\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nRestart your PowerShell session to ensure uv is in your PATH\n\nFor macOS/Linux (Terminal):\n\nOpen Terminal\nRun the following command:\n\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nIf your system doesn’t have curl, you can use wget:\nwget -qO- https://astral.sh/uv/install.sh | sh\n\nClose and reopen your terminal to ensure uv is in your PATH\n\nVerify installation: Type uv --version in your command line interface. You should see the version number of uv displayed.\n\n\n\nNow let’s create a new Python project structure using uv:\n\nOpen your command line interface (PowerShell on Windows or Terminal on Mac/Linux)\nSimply type the following command directly in your command line or first navigate to the directory where you want to create your project (e.g., cd Documents)\nRun the following command to initialize a new project named “genai-app” with Python 3.11:\n\nuv init genai-app --python 3.11\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a new directory called genai-app\nSets up a project structure with Python 3.11\nCreates initial configuration files\n\n\n\n\n\n\n\nLet’s move into your newly created project directory:\ncd genai-app\nCheck the directory contents: You can use dir (Windows) or ls (macOS/Linux) to see what files were created.\n\n\n\nA virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:\nuv sync\n\n\n\n\n\n\nWhat this does\n\n\n\n\n\n\nCreates a virtual environment for your project\nSets up the environment based on your project’s specifications\nThis environment is isolated from your system Python installation\n\n\n\n\nLet’s execute the example Python file main.py to make sure everything is working:\npython3 main.py\nYou should see a “Hello, world” message.\n\n\n\nLet’s add some commonly used packages for AI and data science projects:\nuv add pandas python-dotenv openai gradio streamlit\n\n\n\n\n\n\nWhat these packages do\n\n\n\n\n\n\npandas: A beginner-friendly library that helps you work with data tables (like Excel spreadsheets)\npython-dotenv: Helps keep your passwords and API keys safe by storing them in a separate file\nopenai: Connects your code to AI services like ChatGPT\ngradio: Creates simple web interfaces for your AI projects with minimal coding\nstreamlit: Turns your Python scripts into interactive web apps with just a few lines of code\n\n\n\n\n\n\n\nNow let’s open your new project in VS Code where we’ll write our code:\ncode .\nThis command tells your computer to open VS Code in your current folder (the . means “here”).\nIf this command doesn’t work, don’t worry! You can also: 1. Open VS Code manually 2. Click on “File” in the top menu 3. Select “Open Folder…” 4. Find and select your genai-app folder\n\n\n\nLet’s make sure everything is working by running the example file:\npython3 main.py\nYou should see a “Hello, world!” message appear. This confirms that: 1. Your Python is working correctly 2. Your virtual environment is active 3. You’re ready to start coding!\n\n\n\nPackage Installation Problems\nIf you see errors when adding packages: 1. Check that you’re connected to the internet 2. Try running uv sync again to refresh your environment 3. Read the error message carefully - it often tells you exactly what went wrong\n“Command Not Found” Error\nIf your computer can’t find the uv command: 1. Close your terminal completely and open a new one 2. If that doesn’t work, you might need to add uv to your PATH (the list of places your computer looks for programs) 3. As a last resort, try reinstalling using the commands from Step 4\nVS Code Extensions Not Working\nIf the extensions we installed aren’t behaving correctly: 1. Make sure you’ve signed in to your GitHub account in VS Code 2. Try updating VS Code to the latest version 3. You can reinstall extensions by uninstalling them first, then installing again\n\n\n\n\nuv Documentation\nVS Code Python Tutorial\n\n\n\n\nCongratulations! You’ve successfully set up a Python development environment using uv. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.\nHappy coding! 💻✨",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
     ]
   }
 ]
