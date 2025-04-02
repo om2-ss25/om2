@@ -251,7 +251,19 @@
     "href": "weeks.html#installation-of-packages",
     "title": "Weekly overview",
     "section": "Installation of packages",
-    "text": "Installation of packages\nFollow these steps to set up your environment:\n\nOpen your command line (Terminal or PowerShell)\nNavigate to your genai-app folder\nAdd the necessary packages:\n\nuv add pandas python-dotenv openai gradio streamlit\n\nDownload the .env file from Moodle\nUnzip the file and move it into your genai-app project folder\n\n\n💡 Mac users: The .env file is hidden by default. Use the shortcut\nCmd + Shift + . in Finder to show hidden files.",
+    "text": "Installation of packages\nFollow these steps to set up your environment:\n\nOpen your command line (Terminal or PowerShell)\nNavigate to your genai-app folder\nAdd the necessary packages:\n\nuv add pandas python-dotenv openai gradio streamlit",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#download-.env-file",
+    "href": "weeks.html#download-.env-file",
+    "title": "Weekly overview",
+    "section": "Download .env file",
+    "text": "Download .env file\n\nDownload the .env file from Moodle\nUnzip the file and move it into your genai-app project folder\nMake sure to add the .env file to your .gitignore file to prevent accidentally sharing sensitive environment variables when pushing to a repository (what is a .gitignore file?).\n\n\n💡 Mac users: The .env file is hidden by default. Use the shortcut\nCmd + Shift + . in Finder to show hidden files.",
     "crumbs": [
       "Home",
       "Course information",

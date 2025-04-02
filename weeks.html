@@ -232,6 +232,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
   <ul class="collapse">
   <li><a href="#installation-of-packages" id="toc-installation-of-packages" class="nav-link" data-scroll-target="#installation-of-packages">Installation of packages</a></li>
+  <li><a href="#download-.env-file" id="toc-download-.env-file" class="nav-link" data-scroll-target="#download-.env-file">Download .env file</a></li>
   <li><a href="#create-marketing-app" id="toc-create-marketing-app" class="nav-link" data-scroll-target="#create-marketing-app">Create marketing app</a></li>
   <li><a href="#run-marketing-app" id="toc-run-marketing-app" class="nav-link" data-scroll-target="#run-marketing-app">Run marketing app</a></li>
   </ul></li>
@@ -630,10 +631,14 @@ If the extensions we installed aren’t behaving correctly:</p>
 <li>Add the necessary packages:</li>
 </ol>
 <div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="4" type="1">
+</section>
+<section id="download-.env-file" class="level2">
+<h2 class="anchored" data-anchor-id="download-.env-file">Download .env file</h2>
+<ul>
 <li>Download the <code>.env</code> file from Moodle</li>
 <li>Unzip the file and move it into your genai-app project folder</li>
-</ol>
+<li>Make sure to add the .env file to your .gitignore file to prevent accidentally sharing sensitive environment variables when pushing to a repository (<a href="https://docs.github.com/en/get-started/git-basics/ignoring-files">what is a .gitignore file?</a>).</li>
+</ul>
 <blockquote class="blockquote">
 <p>💡 <strong>Mac users:</strong> The <code>.env</code> file is hidden by default. Use the shortcut<br>
 <code>Cmd + Shift + .</code> in Finder to show hidden files.</p>
