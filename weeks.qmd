@@ -358,7 +358,7 @@ Next, we'll build an AI-powered marketing app with gradio and the OpenAI-API:
 
 Next, enter this prompt in the GitHub Copilot Edits window:
 
-```{markdown}
+```markdown
 Create an AI powered Python Instagram content generator with:
 
 Tech stack:
