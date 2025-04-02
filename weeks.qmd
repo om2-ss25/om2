@@ -262,13 +262,36 @@ No lecture
 
 ## Week 3
 
+### Installation
 
-We install some packages:
+📦 Install Required Packages
 
-- Open your command line 
-- Navigate to your genai-app folder
-- Add the packages
+Follow these steps to set up your environment:
 
-```bash
-uv add pandas python-dotenv openai gradio streamlit
-```
+1. **Open your command line**  
+2. **Navigate to your `genai-app` folder**  
+3. **Add the necessary packages:**
+
+   ```bash
+   uv add pandas python-dotenv openai gradio streamlit
+   ```
+
+4. **Download the `.env` file from Moodle**
+5. **Unzip the file and move it into your genai-app project folder**
+
+> 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
+> **`Cmd + Shift + .`** in Finder to show hidden files.
+
+✅ Activate Your Virtual Environment
+
+- **On Windows:**
+
+  ```bash
+  .venv\Scripts\Activate
+  ```
+
+- **On macOS/Linux:**
+
+  ```bash
+  source .venv/bin/activate
+  ```
