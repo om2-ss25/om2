@@ -224,8 +224,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-10activate-your-virtual-environment" id="toc-step-10activate-your-virtual-environment" class="nav-link" data-scroll-target="#step-10activate-your-virtual-environment">Step 10:Activate Your Virtual Environment ✅</a></li>
   <li><a href="#step-11-run-your-first-python-program" id="toc-step-11-run-your-first-python-program" class="nav-link" data-scroll-target="#step-11-run-your-first-python-program">Step 11: Run Your First Python Program 🏃‍♀️</a></li>
   <li><a href="#troubleshooting-common-issues" id="toc-troubleshooting-common-issues" class="nav-link" data-scroll-target="#troubleshooting-common-issues">Troubleshooting Common Issues 🔧</a></li>
-  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a></li>
-  <li><a href="#mac" id="toc-mac" class="nav-link" data-scroll-target="#mac">Mac</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion 🎯</a></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources 📖</a></li>
   </ul></li>
@@ -589,18 +587,17 @@ If the extensions we installed aren’t behaving correctly:</p>
 </ol>
 <p><strong>“Permission Denied” error</strong></p>
 <p>If you encounter a “Permission Denied” error in your command line, it’s typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.</p>
-</section>
-<section id="windows" class="level3">
-<h3 class="anchored" data-anchor-id="windows">Windows</h3>
-<p>Click on the provided hyperlik in the error message and follow the instructions.</p>
-</section>
-<section id="mac" class="level3">
-<h3 class="anchored" data-anchor-id="mac">Mac</h3>
-<p>To modify permissions for a directory (e.g., “genai-app”) in your current working directory:</p>
+<ul>
+<li>Windows: Click on the provided hyperlik in the error message and follow the instructions.</li>
+<li>Mac: To modify permissions for a directory (e.g., “genai-app”) in your current working directory:</li>
+</ul>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 ./genai-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Permission Values:</strong> - <code>755</code>: Owner can read/write/execute; others can read/execute - <code>700</code>: Only owner can read/write/execute - <code>777</code>: Everyone can read/write/execute (use with caution)</p>
-<p>As an alternative: For system-protected directories, use commands with <code>sudo</code> to use administrative privileges. For example:</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Permission Values:</p>
+<ul>
+<li><code>755</code>: Owner can read/write/execute; others can read/execute</li>
+<li><code>700</code>: Only owner can read/write/execute</li>
+<li><code>777</code>: Everyone can read/write/execute (use with caution)</li>
+</ul>
 </section>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion 🎯</h3>
@@ -629,7 +626,7 @@ If the extensions we installed aren’t behaving correctly:</p>
 <li><p>Open your command line (Terminal or PowerShell)</p></li>
 <li><p>Navigate to your <code>genai-app</code> folder</p></li>
 <li><p>Add the necessary packages:</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p>Download the <code>.env</code> file from Moodle</p></li>
 <li><p>Unzip the file and move it into your genai-app project folder</p></li>
 </ol>
@@ -651,22 +648,22 @@ If the extensions we installed aren’t behaving correctly:</p>
 </ul></li>
 </ul>
 <p>Next, enter this prompt in the GitHub Copilot Edits window:</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="an">Create an AI powered Python Instagram content generator with:</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>Tech stack:</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Gradio UI</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>OpenAI API</span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>python-dotenv</span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>Requirements:</span>
-<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Load OPENAI_API_KEY from .env</span>
-<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Use client.chat.completions.create() API format</span>
-<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Name the gradio file app.py</span>
-<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Gradio interface with:</span>
-<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Content type selector (carousel/post/reel/story)</span>
-<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Target group selection</span>
-<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Topic input field</span>
-<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Output area for generated content</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>Create an AI powered Python Instagram content generator.</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>Tech stack:</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Gradio UI</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>OpenAI API</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>python-dotenv</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>Requirements:</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Load OPENAI_API_KEY from .env</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Use client.chat.completions.create() API format</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Name the gradio file app.py</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Gradio interface with:</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Content type selector (carousel/post/reel/story)</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Target group selection</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Topic input field</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Output area for generated content</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="run-marketing-app" class="level2">
 <h2 class="anchored" data-anchor-id="run-marketing-app">Run marketing app</h2>
@@ -674,9 +671,9 @@ If the extensions we installed aren’t behaving correctly:</p>
 <li>Open Powershell or Terminal and change into your genai-app directory. Activate Your Virtual Environment in your genai-app folder:</li>
 </ol>
 <p><strong>On Windows:</strong></p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="ex">.venv\Scripts\Activate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="ex">.venv\Scripts\Activate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>On macOS/Linux:</strong></p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-simple callout-note callout-titled" title="Permission Denied error">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -690,18 +687,13 @@ Permission Denied error
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>If you encounter a “Permission Denied” error, use the commands with <code>sudo</code> to use administrative privileges:</p>
-<ul>
-<li><p><strong>On Windows:</strong></p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> .venv<span class="dt">\S</span>cripts<span class="dt">\A</span>ctivate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p><strong>On macOS/Linux:</strong></p>
-<p>```bash sudo source .venv/bin/activate</p></li>
-</ul>
-<p><strong>How to solve this issue permanently:</strong></p>
-<p>If you encounter a “Permission Denied” error in your command line, it’s typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.</p>
-<p><strong>Windows</strong>:</p>
-<p>Click on the provided hyperlik in the error message and follow the instructions.</p>
-<p><strong>Mac</strong>:</p>
-<p>To modify permissions for a directory (e.g., “genai-app”) in your current working directory:</p>
+<p><strong>On Windows:</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> .venv<span class="dt">\S</span>cripts<span class="dt">\A</span>ctivate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>On macOS/Linux:</strong></p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>How to solve this issue permanently:</strong> If you encounter a “Permission Denied” error in your command line, it’s typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.</p>
+<p><strong>Windows</strong>: Click on the provided hyperlik in the error message and follow the instructions.</p>
+<p><strong>Mac</strong>: To modify permissions for a directory (e.g., “genai-app”) in your current working directory:</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 ./genai-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Permission Values:</strong> - <code>755</code>: Owner can read/write/execute; others can read/execute - <code>700</code>: Only owner can read/write/execute - <code>777</code>: Everyone can read/write/execute (use with caution)</p>
 </div>
