@@ -4,15 +4,15 @@ toc: true
 ---
 
 
-## Week 1
+# Week 1
 
-### Python Setup with uv
+## Python Setup with uv
 
 Welcome to this guide on setting up your Python development environment using the powerful package manager called `uv`. 
 
 A properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The `uv` package manager we'll be using is a modern, fast alternative to traditional Python package managers.
 
-#### Step 1: Apply for GitHub Student Developer Pack 🎓
+### Step 1: Apply for GitHub Student Developer Pack 🎓
 
 The GitHub Student Developer Pack provides students with free access to the best developer tools.
 
@@ -25,7 +25,7 @@ The GitHub Student Developer Pack provides students with free access to the best
 
 **Why this matters:** The pack includes free access to GitHub Copilot, which is an AI pair programmer that will help you write better code faster.
 
-#### Step 2: Install Visual Studio Code 💻
+### Step 2: Install Visual Studio Code 💻
 
 VS Code is a lightweight but powerful source code editor.
 
@@ -49,7 +49,7 @@ To be able to open VS Code from the command line interface using `code .` comman
 4. Restart your terminal for changes to take effect
 :::
 
-#### Step 3: Install Essential VS Code Extensions 🧩
+### Step 3: Install Essential VS Code Extensions 🧩
 
 Extensions enhance VS Code with additional features. We'll install three key extensions.
 
@@ -84,7 +84,7 @@ You can enhance Copilot's chat responses by providing it with contextual details
 
 - [Custom instructions for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
 
-#### Step 4: Install uv Package Manager ⚡
+### Step 4: Install uv Package Manager ⚡
 
 `uv` is a fast, modern Python package manager and resolver.
 
@@ -117,7 +117,7 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 
 **Verify installation:** Type `uv --version` in your command line interface. You should see the version number of `uv` displayed.
 
-#### Step 5: Initialize Your First Project 
+### Step 5: Initialize Your First Project 
 
 Now let's create a new Python project structure using `uv`:
 
@@ -138,7 +138,7 @@ uv init genai-app --python 3.11
 
 
 
-#### Step 6: Navigate to Your Project Directory 📁
+### Step 6: Navigate to Your Project Directory 📁
 
 Let's move into your newly created project directory:
 
@@ -148,7 +148,7 @@ cd genai-app
 
 **Check the directory contents:** You can use `dir` (Windows) or `ls` (macOS/Linux) to see what files were created.
 
-#### Step 7: Activate your Virtual Python Environment 🔄
+### Step 7: Activate your Virtual Python Environment 🔄
 
 A virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:
 
@@ -175,7 +175,7 @@ sudo uv sync
 ```
 
 
-#### Step 8: Install Required Packages 📦
+### Step 8: Install Required Packages 📦
 
 Let's add some commonly used packages for AI and data science projects:
 
@@ -191,7 +191,7 @@ uv add pandas python-dotenv openai gradio streamlit
 - `streamlit`: Turns your Python scripts into interactive web apps with just a few lines of code
 :::
 
-#### Step 9: Open your project in VS Code
+### Step 9: Open your project in VS Code
 
 Now let's open your new project in VS Code where we'll write our code:
 
@@ -212,7 +212,7 @@ code .
 :::
 
 
-#### Step 10:Activate Your Virtual Environment ✅
+### Step 10:Activate Your Virtual Environment ✅
 
 Use your command line to activate your Virtual Environment in your genai-app folder:
 
@@ -243,7 +243,7 @@ If you encounter a "Permission Denied" error, use the commands with `sudo` to us
   ```
 :::
 
-#### Step 11: Run Your First Python Program 🏃‍♀️
+### Step 11: Run Your First Python Program 🏃‍♀️
 
 Let's make sure everything is working by running the example file. In your command line, type:
 
@@ -257,7 +257,7 @@ You should see a "Hello, world!" message appear. This confirms that:
 3. You're ready to start coding!
 
 
-#### Troubleshooting Common Issues 🔧
+### Troubleshooting Common Issues 🔧
 
 **Package Installation Problems**  
 If you see errors when adding packages:
@@ -284,11 +284,11 @@ If the extensions we installed aren't behaving correctly:
 
 If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
 
-#### Windows
+### Windows
 
 Click on the provided hyperlik in the error message and follow the instructions. 
 
-#### Mac
+### Mac
 
 To modify permissions for a directory (e.g., "genai-app") in your current working directory:
 
@@ -308,27 +308,27 @@ sudo source .venv/bin/activate
 ```
 
 
-#### Conclusion 🎯
+### Conclusion 🎯
 
 Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
 
 Happy coding! 💻✨
 
 
-#### Additional Resources 📖
+### Additional Resources 📖
 
 - [uv Documentation](https://docs.astral.sh/uv/)
 - [VS Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
 
 
 
-## Week 2
+# Week 2
 
 No lecture
 
-## Week 3
+# Week 3
 
-### Installation of packages
+## Installation of packages
 
 Follow these steps to set up your environment:
 
@@ -346,34 +346,70 @@ Follow these steps to set up your environment:
 > 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
 > `Cmd + Shift + .` in Finder to show hidden files.
 
-Activate Your Virtual Environment in your genai-app folder:
 
-- **On Windows:**
+## Create marketing app
 
-  ```bash
-  .venv\Scripts\Activate
-  ```
+Next, we'll build an AI-powered marketing app with gradio and the OpenAI-API:
 
-- **On macOS/Linux:**
+- Open genai-app as a Folder in VS Code.  
+- To generate the code, use GitHub Copilot Edits:
+  - Mac: Press cmd+Shift+i
+  - Windows: Press ctrl+Shift+i
 
-  ```bash
-  source .venv/bin/activate
-  ```
+Next, enter this prompt in the GitHub Copilot Edits window:
 
+```{markdown}
+Create an AI powered Python Instagram content generator with:
+
+Tech stack:
+- Gradio UI
+- OpenAI API
+- python-dotenv
+
+Requirements:
+1. Load OPENAI_API_KEY from .env
+2. Use client.chat.completions.create() API format
+3. Name the gradio file app.py
+4. Gradio interface with:
+   - Content type selector (carousel/post/reel/story)
+   - Target group selection
+   - Topic input field
+   - Output area for generated content
+```
+
+
+
+## Run marketing app
+
+1. Open Powershell or Terminal and change into your genai-app directory. Activate Your Virtual Environment in your genai-app folder:
+
+**On Windows:**
+
+```bash
+.venv\Scripts\Activate
+```
+
+**On macOS/Linux:**
+
+```bash
+source .venv/bin/activate
+```
+
+:::{.callout-note title="Permission Denied error" collapse="true"}
 If you encounter a "Permission Denied" error, use the commands with `sudo` to use administrative privileges:
 
 - **On Windows:**
 
   ```bash
-  .venv\Scripts\Activate
+  sudo .venv\Scripts\Activate
   ```
 - **On macOS/Linux:**
 
   ```bash
   sudo source .venv/bin/activate
-  ```
 
-:::{.callout-note title=""Permission Denied error" collapse="true"}
+**How to solve this issue permanently:**
+
 If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
 
 **Windows**:  
@@ -392,4 +428,14 @@ chmod 755 ./genai-app
 - `755`: Owner can read/write/execute; others can read/execute
 - `700`: Only owner can read/write/execute
 - `777`: Everyone can read/write/execute (use with caution)
+
 :::
+
+2. Start the gradio app with this command
+
+```bash
+python app.py
+``` 
+
+If you encounter an error, carefully review the error message for troubleshooting clues.
+
