@@ -292,9 +292,9 @@ chmod 755 ./genai-app
 ```
 Permission Values: 
 
-- `755`: Owner can read/write/execute; others can read/execute
-- `700`: Only owner can read/write/execute
-- `777`: Everyone can read/write/execute (use with caution)
+- `755`: Owner can read/write/execute; others can read/execute  
+- `700`: Only owner can read/write/execute  
+- `777`: Everyone can read/write/execute (use with caution)  
 
 
 
@@ -326,9 +326,9 @@ Follow these steps to set up your environment:
 2. Navigate to your `genai-app` folder
 3. Add the necessary packages:
 
-   ```bash
-   uv add pandas python-dotenv openai gradio streamlit
-   ```
+```bash
+uv add pandas python-dotenv openai gradio streamlit
+```
 
 4. Download the `.env` file from Moodle
 5. Unzip the file and move it into your genai-app project folder
@@ -411,6 +411,7 @@ chmod 755 ./genai-app
 ```
 
 **Permission Values:**
+
 - `755`: Owner can read/write/execute; others can read/execute
 - `700`: Only owner can read/write/execute
 - `777`: Everyone can read/write/execute (use with caution)
@@ -422,6 +423,8 @@ chmod 755 ./genai-app
 ```bash
 python app.py
 ``` 
+
+Copy the URL (https://...) from the terminal output and paste it into your browser to access the application.
 
 If you encounter an error, carefully review the error message for troubleshooting clues.
 
