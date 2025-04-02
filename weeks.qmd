@@ -385,7 +385,7 @@ Requirements:
 source .venv/bin/activate
 ```
 
-:::{.callout-note title="Permission Denied error" collapse="true"}
+:::{.callout-warning title="Permission Denied error" collapse="true"}
 If you encounter a "Permission Denied" error, use the commands with `sudo` to use administrative privileges:
 
 **On Windows:**
