@@ -12,7 +12,6 @@ Welcome to this guide on setting up your Python development environment using th
 
 A properly configured development environment is crucial for efficient coding. It helps manage dependencies, keeps your projects organized, and provides powerful tools that make coding easier and more enjoyable. The `uv` package manager we'll be using is a modern, fast alternative to traditional Python package managers.
 
-
 #### Step 1: Apply for GitHub Student Developer Pack 🎓
 
 The GitHub Student Developer Pack provides students with free access to the best developer tools.
@@ -30,35 +29,25 @@ The GitHub Student Developer Pack provides students with free access to the best
 
 VS Code is a lightweight but powerful source code editor.
 
+:::{.callout-note title="Pro Tip for Microsoft" collapse="true"}
+During installation on Windows, check the options "Add 'Open with Code' action to Windows Explorer file context menu" and "Add 'Open with Code' action to Windows Explorer directory context menu" for easier access.
+:::
+
+
 1. Go to [VS Code download page](https://code.visualstudio.com)
 2. Download the appropriate version for your operating system
 3. Run the installer and follow the on-screen instructions
 4. Launch VS Code after installation
 
 
-:::{.callout-note title="Pro Tip for Microsoft" collapse="true"}
-During installation on Windows, check the options "Add 'Open with Code' action to Windows Explorer file context menu" and "Add 'Open with Code' action to Windows Explorer directory context menu" for easier access.
-:::
-
-
-**Adding VS Code to PATH (Command Line Access)**
-
+:::{.callout-note title="Pro Tip for Mac" collapse="true"}
 To be able to open VS Code from the command line interface using `code .` command:
-
-**For Windows:**
-
-1. Open VS Code
-2. Press `Ctrl+Shift+P` to open the Command Palette
-3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
-4. Restart your terminal for changes to take effect
-
-**For macOS:**
 
 1. Open VS Code
 2. Press `Cmd+Shift+P` to open the Command Palette
 3. Type "shell command" and select "Shell Command: Install 'code' command in PATH"
 4. Restart your terminal for changes to take effect
-
+:::
 
 #### Step 3: Install Essential VS Code Extensions 🧩
 
@@ -89,6 +78,11 @@ In VS Code, click on the Extensions icon in the sidebar (or press: Windows `Ctrl
 :::{.callout-note appearance="minimal"}
 **Note:** GitHub Copilot requires a subscription, but it's free with the GitHub Student Developer Pack you applied for in Step 1.
 :::
+
+
+You can enhance Copilot's chat responses by providing it with contextual details about your workflow, tools, or project specifics. Instead of manually including this context in every chat query, you can create a custom instructions file that automatically incorporates this information with every chat request.
+
+- [Custom instructions for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
 
 #### Step 4: Install uv Package Manager ⚡
 
@@ -141,6 +135,9 @@ uv init genai-app --python 3.11
 - Creates initial configuration files
 :::
 
+
+
+
 #### Step 6: Navigate to Your Project Directory 📁
 
 Let's move into your newly created project directory:
@@ -155,6 +152,12 @@ cd genai-app
 
 A virtual environment is an isolated space where you can install packages without affecting your global Python installation. We can create and activate this environment with:
 
+
+:::{.callout-warning title="Important"}
+After using `uv sync`, you should not move your genai-app folder to a different location. Doing so may break path references and prevent your environment from working properly.
+:::
+
+
 ```bash
 uv sync
 ```
@@ -165,13 +168,12 @@ uv sync
 - This environment is isolated from your system Python installation
 :::
 
-Let's execute the example Python file main.py to make sure everything is working:
+If you encounter a "Permission Denied" error, use the command with `sudo` to use administrative privileges:
 
 ```bash
-python3 main.py
+sudo uv sync
 ```
 
-You should see a "Hello, world" message.
 
 #### Step 8: Install Required Packages 📦
 
@@ -193,22 +195,57 @@ uv add pandas python-dotenv openai gradio streamlit
 
 Now let's open your new project in VS Code where we'll write our code:
 
-```bash
-code .
-```
-
-This command tells your computer to open VS Code in your current folder (the `.` means "here").
-
-If this command doesn't work, don't worry! You can also:
-1. Open VS Code manually
-2. Click on "File" in the top menu
+1. Open VS Code 
+2. Click on "File" in the top menu on the left
 3. Select "Open Folder..."
 4. Find and select your `genai-app` folder
 
 
-#### Step 10: Run Your First Python Program 🏃‍♀️
+:::{.callout-note title="Pro Tip" collapse="true"}
 
-Let's make sure everything is working by running the example file:
+When you're in your command line, this command opens VS Code in your current directory (the `.` represents "current location").
+
+```bash
+code .
+```
+
+:::
+
+
+#### Step 10:Activate Your Virtual Environment ✅
+
+Use your command line to activate your Virtual Environment in your genai-app folder:
+
+- **On Windows:**
+
+```bash
+.venv\Scripts\Activate
+```
+
+- **On macOS/Linux:**
+
+```bash
+source .venv/bin/activate
+```
+
+:::{.callout-note title="Permission Denied" collapse="true"}
+If you encounter a "Permission Denied" error, use the commands with `sudo` to use administrative privileges:
+
+- **On Windows:**
+
+  ```bash
+  .venv\Scripts\Activate
+  ```
+- **On macOS/Linux:**
+
+  ```bash
+  sudo source .venv/bin/activate
+  ```
+:::
+
+#### Step 11: Run Your First Python Program 🏃‍♀️
+
+Let's make sure everything is working by running the example file. In your command line, type:
 
 ```bash
 python3 main.py
@@ -243,63 +280,13 @@ If the extensions we installed aren't behaving correctly:
 2. Try updating VS Code to the latest version
 3. You can reinstall extensions by uninstalling them first, then installing again
 
-
-#### Additional Resources 📖
-
-- [uv Documentation](https://docs.astral.sh/uv/)
-- [VS Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
-
-
-#### Conclusion 🎯
-
-Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
-
-Happy coding! 💻✨
-
-## Week 2
-
-No lecture
-
-## Week 3
-
-### Installation
-
-📦 Install Required Packages
-
-Follow these steps to set up your environment:
-
-1. **Open your command line**  
-2. **Navigate to your `genai-app` folder**  
-3. **Add the necessary packages:**
-
-   ```bash
-   uv add pandas python-dotenv openai gradio streamlit
-   ```
-
-4. **Download the `.env` file from Moodle**
-5. **Unzip the file and move it into your genai-app project folder**
-
-> 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
-> **`Cmd + Shift + .`** in Finder to show hidden files.
-
-✅ Activate Your Virtual Environment in your genai-app folder:
-
-- **On Windows:**
-
-  ```bash
-  .venv\Scripts\Activate
-  ```
-
-- **On macOS/Linux:**
-
-  ```bash
-  source .venv/bin/activate
-  ```
-
-
-### Folder Permissions 
+**"Permission Denied" error**  
 
 If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
+
+#### Windows
+
+Click on the provided hyperlik in the error message and follow the instructions. 
 
 #### Mac
 
@@ -314,8 +301,95 @@ chmod 755 ./genai-app
 - `700`: Only owner can read/write/execute
 - `777`: Everyone can read/write/execute (use with caution)
 
-As an alternative: For system-protected directories, use prefix commands with `sudo` to use administrative privileges:
+As an alternative: For system-protected directories, use commands with `sudo` to use administrative privileges. For example:
 
 ```bash
 sudo source .venv/bin/activate
 ```
+
+
+#### Conclusion 🎯
+
+Congratulations! You've successfully set up a Python development environment using `uv`. This modern setup will serve you well as you progress in your programming journey. Remember that learning to code is a marathon, not a sprint – take your time to understand each concept thoroughly.
+
+Happy coding! 💻✨
+
+
+#### Additional Resources 📖
+
+- [uv Documentation](https://docs.astral.sh/uv/)
+- [VS Code Python Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+
+
+
+## Week 2
+
+No lecture
+
+## Week 3
+
+### Installation of packages
+
+Follow these steps to set up your environment:
+
+1. Open your command line (Terminal or PowerShell)
+2. Navigate to your `genai-app` folder
+3. Add the necessary packages:
+
+   ```bash
+   uv add pandas python-dotenv openai gradio streamlit
+   ```
+
+4. Download the `.env` file from Moodle
+5. Unzip the file and move it into your genai-app project folder
+
+> 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
+> `Cmd + Shift + .` in Finder to show hidden files.
+
+Activate Your Virtual Environment in your genai-app folder:
+
+- **On Windows:**
+
+  ```bash
+  .venv\Scripts\Activate
+  ```
+
+- **On macOS/Linux:**
+
+  ```bash
+  source .venv/bin/activate
+  ```
+
+If you encounter a "Permission Denied" error, use the commands with `sudo` to use administrative privileges:
+
+- **On Windows:**
+
+  ```bash
+  .venv\Scripts\Activate
+  ```
+- **On macOS/Linux:**
+
+  ```bash
+  sudo source .venv/bin/activate
+  ```
+
+:::{.callout-note title=""Permission Denied error" collapse="true"}
+If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
+
+**Windows**:  
+
+Click on the provided hyperlik in the error message and follow the instructions. 
+
+**Mac**:
+
+To modify permissions for a directory (e.g., "genai-app") in your current working directory:
+
+```bash
+chmod 755 ./genai-app
+```
+
+**Permission Values:**
+- `755`: Owner can read/write/execute; others can read/execute
+- `700`: Only owner can read/write/execute
+- `777`: Everyone can read/write/execute (use with caution)
+:::
