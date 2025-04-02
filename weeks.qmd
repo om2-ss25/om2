@@ -282,7 +282,7 @@ Follow these steps to set up your environment:
 > 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
 > **`Cmd + Shift + .`** in Finder to show hidden files.
 
-✅ Activate Your Virtual Environment
+✅ Activate Your Virtual Environment in your genai-app folder:
 
 - **On Windows:**
 
@@ -295,3 +295,27 @@ Follow these steps to set up your environment:
   ```bash
   source .venv/bin/activate
   ```
+
+
+### Folder Permissions 
+
+If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
+
+#### Mac
+
+To modify permissions for a directory (e.g., "genai-app") in your current working directory:
+
+```bash
+chmod 755 ./genai-app
+```
+
+**Permission Values:**
+- `755`: Owner can read/write/execute; others can read/execute
+- `700`: Only owner can read/write/execute
+- `777`: Everyone can read/write/execute (use with caution)
+
+As an alternative: For system-protected directories, use prefix commands with `sudo` to use administrative privileges:
+
+```bash
+sudo source .venv/bin/activate
+```
