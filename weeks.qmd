@@ -330,8 +330,11 @@ Follow these steps to set up your environment:
 uv add pandas python-dotenv openai gradio streamlit
 ```
 
-4. Download the `.env` file from Moodle
-5. Unzip the file and move it into your genai-app project folder
+## Download .env file
+
+- Download the `.env` file from Moodle
+- Unzip the file and move it into your genai-app project folder
+- Make sure to add the .env file to your .gitignore file to prevent accidentally sharing sensitive environment variables when pushing to a repository ([what is a .gitignore file?](https://docs.github.com/en/get-started/git-basics/ignoring-files)).
 
 > 💡 **Mac users:** The `.env` file is hidden by default. Use the shortcut  
 > `Cmd + Shift + .` in Finder to show hidden files.
