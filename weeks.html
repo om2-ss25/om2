@@ -594,8 +594,10 @@ If the extensions we installed aren’t behaving correctly:</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 ./genai-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Permission Values:</p>
 <ul>
-<li><code>755</code>: Owner can read/write/execute; others can read/execute</li>
-<li><code>700</code>: Only owner can read/write/execute</li>
+<li><code>755</code>: Owner can read/write/execute; others can read/execute<br>
+</li>
+<li><code>700</code>: Only owner can read/write/execute<br>
+</li>
 <li><code>777</code>: Everyone can read/write/execute (use with caution)</li>
 </ul>
 </section>
@@ -623,12 +625,14 @@ If the extensions we installed aren’t behaving correctly:</p>
 <h2 class="anchored" data-anchor-id="installation-of-packages">Installation of packages</h2>
 <p>Follow these steps to set up your environment:</p>
 <ol type="1">
-<li><p>Open your command line (Terminal or PowerShell)</p></li>
-<li><p>Navigate to your <code>genai-app</code> folder</p></li>
-<li><p>Add the necessary packages:</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Download the <code>.env</code> file from Moodle</p></li>
-<li><p>Unzip the file and move it into your genai-app project folder</p></li>
+<li>Open your command line (Terminal or PowerShell)</li>
+<li>Navigate to your <code>genai-app</code> folder</li>
+<li>Add the necessary packages:</li>
+</ol>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add pandas python-dotenv openai gradio streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
+<li>Download the <code>.env</code> file from Moodle</li>
+<li>Unzip the file and move it into your genai-app project folder</li>
 </ol>
 <blockquote class="blockquote">
 <p>💡 <strong>Mac users:</strong> The <code>.env</code> file is hidden by default. Use the shortcut<br>
@@ -695,7 +699,12 @@ Permission Denied error
 <p><strong>Windows</strong>: Click on the provided hyperlik in the error message and follow the instructions.</p>
 <p><strong>Mac</strong>: To modify permissions for a directory (e.g., “genai-app”) in your current working directory:</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 ./genai-app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Permission Values:</strong> - <code>755</code>: Owner can read/write/execute; others can read/execute - <code>700</code>: Only owner can read/write/execute - <code>777</code>: Everyone can read/write/execute (use with caution)</p>
+<p><strong>Permission Values:</strong></p>
+<ul>
+<li><code>755</code>: Owner can read/write/execute; others can read/execute</li>
+<li><code>700</code>: Only owner can read/write/execute</li>
+<li><code>777</code>: Everyone can read/write/execute (use with caution)</li>
+</ul>
 </div>
 </div>
 </div>
@@ -703,6 +712,7 @@ Permission Denied error
 <li>Start the gradio app with this command</li>
 </ol>
 <div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> app.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Copy the URL (https://…) from the terminal output and paste it into your browser to access the application.</p>
 <p>If you encounter an error, carefully review the error message for troubleshooting clues.</p>
 
 
