@@ -284,28 +284,18 @@ If the extensions we installed aren't behaving correctly:
 
 If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
 
-### Windows
-
-Click on the provided hyperlik in the error message and follow the instructions. 
-
-### Mac
-
-To modify permissions for a directory (e.g., "genai-app") in your current working directory:
+- Windows: Click on the provided hyperlik in the error message and follow the instructions. 
+- Mac: To modify permissions for a directory (e.g., "genai-app") in your current working directory:
 
 ```bash
 chmod 755 ./genai-app
 ```
+Permission Values: 
 
-**Permission Values:**
 - `755`: Owner can read/write/execute; others can read/execute
 - `700`: Only owner can read/write/execute
 - `777`: Everyone can read/write/execute (use with caution)
 
-As an alternative: For system-protected directories, use commands with `sudo` to use administrative privileges. For example:
-
-```bash
-sudo source .venv/bin/activate
-```
 
 
 ### Conclusion 🎯
@@ -359,7 +349,7 @@ Next, we'll build an AI-powered marketing app with gradio and the OpenAI-API:
 Next, enter this prompt in the GitHub Copilot Edits window:
 
 ```markdown
-Create an AI powered Python Instagram content generator with:
+Create an AI powered Python Instagram content generator.
 
 Tech stack:
 - Gradio UI
@@ -398,27 +388,23 @@ source .venv/bin/activate
 :::{.callout-note title="Permission Denied error" collapse="true"}
 If you encounter a "Permission Denied" error, use the commands with `sudo` to use administrative privileges:
 
-- **On Windows:**
+**On Windows:**
 
-  ```bash
-  sudo .venv\Scripts\Activate
-  ```
-- **On macOS/Linux:**
+```bash
+sudo .venv\Scripts\Activate
+```
 
-  ```bash
-  sudo source .venv/bin/activate
+**On macOS/Linux:**
 
-**How to solve this issue permanently:**
+```bash
+sudo source .venv/bin/activate
+```
 
-If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
+**How to solve this issue permanently:** If you encounter a "Permission Denied" error in your command line, it's typically a file system permissions issue. Your user account lacks sufficient permissions to write to the directory where operations are being attempted.
 
-**Windows**:  
+**Windows**: Click on the provided hyperlik in the error message and follow the instructions. 
 
-Click on the provided hyperlik in the error message and follow the instructions. 
-
-**Mac**:
-
-To modify permissions for a directory (e.g., "genai-app") in your current working directory:
+**Mac**: To modify permissions for a directory (e.g., "genai-app") in your current working directory:
 
 ```bash
 chmod 755 ./genai-app
