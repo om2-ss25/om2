@@ -431,3 +431,113 @@ Copy the URL (https://...) from the terminal output and paste it into your brows
 
 If you encounter an error, carefully review the error message for troubleshooting clues.
 
+# Week 4
+
+This guide helps you set up a Python project using [OpenAI's Responses API](https://platform.openai.com/docs/api-reference/responses). You'll learn how to initialize your project, install required packages, and configure your environment using a `.env` file.
+
+## 🔧 Step 1: Create a New Project
+
+To start, open your terminal or PowerShell and run the following command:
+
+```bash
+uv init responses-api --python 3.11
+```
+
+This command will:
+
+- Create a new folder named `responses-api`
+- Set up a Python 3.11 virtual environment
+- Generate basic project files
+
+> Note: You need to have [`uv`](https://github.com/astral-sh/uv) installed. It's a fast Python package manager.
+
+---
+
+## 📁 Step 2: Change into the Project Directory
+
+Navigate into your new project folder:
+
+```bash
+cd responses-api
+```
+
+---
+
+## 🔄 Step 3: Sync the Project Environment
+
+Synchronize the project dependencies and initialize the virtual environment:
+
+```bash
+uv sync
+```
+
+This will create a virtual environment and install any dependencies listed in `requirements.lock`.
+
+---
+
+## ✅ Step 4: Activate the Virtual Environment
+
+### For macOS and Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+### For Windows (using Command Prompt):
+
+
+For PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+
+<!-- 
+```cmd
+.venv\Scripts\activate.bat
+``` -->
+
+
+---
+
+## 📦 Step 5: Install Required Packages
+
+You need two packages:
+
+- `openai`: To access the OpenAI API
+- `python-dotenv`: To manage environment variables from a `.env` file
+
+Install them by running:
+
+```bash
+uv add openai python-dotenv
+```
+
+---
+
+## 🔑 Step 6: Add Your OpenAI API Key
+
+1. Go to Moodle and get the .env file
+2. Add the `.env` in your project folder.
+
+The file looks like this:
+
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+
+---
+
+## 📚 Step 7: Learn About the OpenAI Responses API
+
+You can find full documentation for the Responses API here:
+
+- 📄 [API Reference](https://platform.openai.com/docs/api-reference/responses)
+- 🚀 [Quickstart Guide](https://platform.openai.com/docs/quickstart?api-mode=responses)
+- 🔍 [General Overview](https://platform.openai.com/docs/overview)
+
+These resources explain how to structure your API calls, the different response types, and how to interpret the results.
+
+---
