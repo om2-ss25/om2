@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9a023c9ade86a60361e96e3e3f11bc54.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc95f10abd972b9c41a78ec8992004fc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-0dc091fab2e4e77616ffc247f627c246.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -235,6 +235,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#download-.env-file" id="toc-download-.env-file" class="nav-link" data-scroll-target="#download-.env-file">Download .env file</a></li>
   <li><a href="#create-marketing-app" id="toc-create-marketing-app" class="nav-link" data-scroll-target="#create-marketing-app">Create marketing app</a></li>
   <li><a href="#run-marketing-app" id="toc-run-marketing-app" class="nav-link" data-scroll-target="#run-marketing-app">Run marketing app</a></li>
+  </ul></li>
+  <li><a href="#week-4" id="toc-week-4" class="nav-link" data-scroll-target="#week-4">Week 4</a>
+  <ul class="collapse">
+  <li><a href="#step-1-create-a-new-project" id="toc-step-1-create-a-new-project" class="nav-link" data-scroll-target="#step-1-create-a-new-project">🔧 Step 1: Create a New Project</a></li>
+  <li><a href="#step-2-change-into-the-project-directory" id="toc-step-2-change-into-the-project-directory" class="nav-link" data-scroll-target="#step-2-change-into-the-project-directory">📁 Step 2: Change into the Project Directory</a></li>
+  <li><a href="#step-3-sync-the-project-environment" id="toc-step-3-sync-the-project-environment" class="nav-link" data-scroll-target="#step-3-sync-the-project-environment">🔄 Step 3: Sync the Project Environment</a></li>
+  <li><a href="#step-4-activate-the-virtual-environment" id="toc-step-4-activate-the-virtual-environment" class="nav-link" data-scroll-target="#step-4-activate-the-virtual-environment">✅ Step 4: Activate the Virtual Environment</a>
+  <ul class="collapse">
+  <li><a href="#for-macos-and-linux" id="toc-for-macos-and-linux" class="nav-link" data-scroll-target="#for-macos-and-linux">For macOS and Linux:</a></li>
+  <li><a href="#for-windows-using-command-prompt" id="toc-for-windows-using-command-prompt" class="nav-link" data-scroll-target="#for-windows-using-command-prompt">For Windows (using Command Prompt):</a></li>
+  </ul></li>
+  <li><a href="#step-5-install-required-packages" id="toc-step-5-install-required-packages" class="nav-link" data-scroll-target="#step-5-install-required-packages">📦 Step 5: Install Required Packages</a></li>
+  <li><a href="#step-6-add-your-openai-api-key" id="toc-step-6-add-your-openai-api-key" class="nav-link" data-scroll-target="#step-6-add-your-openai-api-key">🔑 Step 6: Add Your OpenAI API Key</a></li>
+  <li><a href="#step-7-learn-about-the-openai-responses-api" id="toc-step-7-learn-about-the-openai-responses-api" class="nav-link" data-scroll-target="#step-7-learn-about-the-openai-responses-api">📚 Step 7: Learn About the OpenAI Responses API</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -719,6 +733,87 @@ Permission Denied error
 <div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> app.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Copy the URL (https://…) from the terminal output and paste it into your browser to access the application.</p>
 <p>If you encounter an error, carefully review the error message for troubleshooting clues.</p>
+</section>
+</section>
+<section id="week-4" class="level1">
+<h1>Week 4</h1>
+<p>This guide helps you set up a Python project using <a href="https://platform.openai.com/docs/api-reference/responses">OpenAI’s Responses API</a>. You’ll learn how to initialize your project, install required packages, and configure your environment using a <code>.env</code> file.</p>
+<section id="step-1-create-a-new-project" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-create-a-new-project">🔧 Step 1: Create a New Project</h2>
+<p>To start, open your terminal or PowerShell and run the following command:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> init responses-api <span class="at">--python</span> 3.11</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This command will:</p>
+<ul>
+<li>Create a new folder named <code>responses-api</code></li>
+<li>Set up a Python 3.11 virtual environment</li>
+<li>Generate basic project files</li>
+</ul>
+<blockquote class="blockquote">
+<p>Note: You need to have <a href="https://github.com/astral-sh/uv"><code>uv</code></a> installed. It’s a fast Python package manager.</p>
+</blockquote>
+<hr>
+</section>
+<section id="step-2-change-into-the-project-directory" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-change-into-the-project-directory">📁 Step 2: Change into the Project Directory</h2>
+<p>Navigate into your new project folder:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> responses-api</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="step-3-sync-the-project-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-sync-the-project-environment">🔄 Step 3: Sync the Project Environment</h2>
+<p>Synchronize the project dependencies and initialize the virtual environment:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> sync</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will create a virtual environment and install any dependencies listed in <code>requirements.lock</code>.</p>
+<hr>
+</section>
+<section id="step-4-activate-the-virtual-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-activate-the-virtual-environment">✅ Step 4: Activate the Virtual Environment</h2>
+<section id="for-macos-and-linux" class="level3">
+<h3 class="anchored" data-anchor-id="for-macos-and-linux">For macOS and Linux:</h3>
+<div class="sourceCode" id="cb27"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="for-windows-using-command-prompt" class="level3">
+<h3 class="anchored" data-anchor-id="for-windows-using-command-prompt">For Windows (using Command Prompt):</h3>
+<p>For PowerShell:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">venv</span>\Scripts\Activate<span class="op">.</span><span class="fu">ps1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<!-- 
+```cmd
+.venv\Scripts\activate.bat
+``` -->
+<hr>
+</section>
+</section>
+<section id="step-5-install-required-packages" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-install-required-packages">📦 Step 5: Install Required Packages</h2>
+<p>You need two packages:</p>
+<ul>
+<li><code>openai</code>: To access the OpenAI API</li>
+<li><code>python-dotenv</code>: To manage environment variables from a <code>.env</code> file</li>
+</ul>
+<p>Install them by running:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add openai python-dotenv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="step-6-add-your-openai-api-key" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-add-your-openai-api-key">🔑 Step 6: Add Your OpenAI API Key</h2>
+<ol type="1">
+<li>Go to Moodle and get the .env file</li>
+<li>Add the <code>.env</code> in your project folder.</li>
+</ol>
+<p>The file looks like this:</p>
+<pre><code>OPENAI_API_KEY=your_api_key_here</code></pre>
+<hr>
+</section>
+<section id="step-7-learn-about-the-openai-responses-api" class="level2">
+<h2 class="anchored" data-anchor-id="step-7-learn-about-the-openai-responses-api">📚 Step 7: Learn About the OpenAI Responses API</h2>
+<p>You can find full documentation for the Responses API here:</p>
+<ul>
+<li>📄 <a href="https://platform.openai.com/docs/api-reference/responses">API Reference</a></li>
+<li>🚀 <a href="https://platform.openai.com/docs/quickstart?api-mode=responses">Quickstart Guide</a></li>
+<li>🔍 <a href="https://platform.openai.com/docs/overview">General Overview</a></li>
+</ul>
+<p>These resources explain how to structure your API calls, the different response types, and how to interpret the results.</p>
+<hr>
 
 
 </section>

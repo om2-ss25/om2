@@ -293,5 +293,89 @@
       "Course information",
       "Weekly Overview"
     ]
+  },
+  {
+    "objectID": "weeks.html#step-1-create-a-new-project",
+    "href": "weeks.html#step-1-create-a-new-project",
+    "title": "Weekly overview",
+    "section": "🔧 Step 1: Create a New Project",
+    "text": "🔧 Step 1: Create a New Project\nTo start, open your terminal or PowerShell and run the following command:\nuv init responses-api --python 3.11\nThis command will:\n\nCreate a new folder named responses-api\nSet up a Python 3.11 virtual environment\nGenerate basic project files\n\n\nNote: You need to have uv installed. It’s a fast Python package manager.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-2-change-into-the-project-directory",
+    "href": "weeks.html#step-2-change-into-the-project-directory",
+    "title": "Weekly overview",
+    "section": "📁 Step 2: Change into the Project Directory",
+    "text": "📁 Step 2: Change into the Project Directory\nNavigate into your new project folder:\ncd responses-api",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-3-sync-the-project-environment",
+    "href": "weeks.html#step-3-sync-the-project-environment",
+    "title": "Weekly overview",
+    "section": "🔄 Step 3: Sync the Project Environment",
+    "text": "🔄 Step 3: Sync the Project Environment\nSynchronize the project dependencies and initialize the virtual environment:\nuv sync\nThis will create a virtual environment and install any dependencies listed in requirements.lock.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-4-activate-the-virtual-environment",
+    "href": "weeks.html#step-4-activate-the-virtual-environment",
+    "title": "Weekly overview",
+    "section": "✅ Step 4: Activate the Virtual Environment",
+    "text": "✅ Step 4: Activate the Virtual Environment\n\nFor macOS and Linux:\nsource .venv/bin/activate\n\n\nFor Windows (using Command Prompt):\nFor PowerShell:\n.venv\\Scripts\\Activate.ps1",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-5-install-required-packages",
+    "href": "weeks.html#step-5-install-required-packages",
+    "title": "Weekly overview",
+    "section": "📦 Step 5: Install Required Packages",
+    "text": "📦 Step 5: Install Required Packages\nYou need two packages:\n\nopenai: To access the OpenAI API\npython-dotenv: To manage environment variables from a .env file\n\nInstall them by running:\nuv add openai python-dotenv",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-6-add-your-openai-api-key",
+    "href": "weeks.html#step-6-add-your-openai-api-key",
+    "title": "Weekly overview",
+    "section": "🔑 Step 6: Add Your OpenAI API Key",
+    "text": "🔑 Step 6: Add Your OpenAI API Key\n\nGo to Moodle and get the .env file\nAdd the .env in your project folder.\n\nThe file looks like this:\nOPENAI_API_KEY=your_api_key_here",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "weeks.html#step-7-learn-about-the-openai-responses-api",
+    "href": "weeks.html#step-7-learn-about-the-openai-responses-api",
+    "title": "Weekly overview",
+    "section": "📚 Step 7: Learn About the OpenAI Responses API",
+    "text": "📚 Step 7: Learn About the OpenAI Responses API\nYou can find full documentation for the Responses API here:\n\n📄 API Reference\n🚀 Quickstart Guide\n🔍 General Overview\n\nThese resources explain how to structure your API calls, the different response types, and how to interpret the results.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Weekly Overview"
+    ]
   }
 ]
