@@ -1,0 +1,54 @@
+---
+title: "NextJS"
+toc: true
+---
+
+
+## Installation
+
+### Mac
+
+1. Installieren Sie [Homebrew](https://brew.sh/), falls noch nicht vorhanden.
+
+Zum Pfad hinzufügen
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+2. Öffnen Sie das Terminal und führen Sie den folgenden Befehl aus, um Node.js und npm zu installieren:
+
+```bash
+brew install node
+```
+
+
+
+
+3. Überprüfen Sie die Installation mit:
+
+
+Für die Node.js-Version.
+
+```bash
+node -v
+```
+
+Für die npm-Version
+
+```bash
+npm -v
+```
+
+## NextJS
+
+Next js installieren
+
+```bash
+npx create-next-app@latest
+```
+
+
+Theme:
+
+npx shadcn@latest init

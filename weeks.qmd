@@ -483,7 +483,7 @@ This will create a virtual environment and install any dependencies listed in `r
 source .venv/bin/activate
 ```
 
-### For Windows (using Command Prompt):
+### For Windows (using PowerShell):
 
 
 For PowerShell:
