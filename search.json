@@ -1,94 +1,36 @@
 [
   {
-    "objectID": "template.html#table-of-contents",
-    "href": "template.html#table-of-contents",
-    "title": "[TITLE]",
-    "section": "[TABLE OF CONTENTS]",
-    "text": "[TABLE OF CONTENTS]\n\n\n\n[SECTION 1]\n\n\n\n\n[SECTION 2]\n\n\n\n\n[SECTION 3]\n\n\n\n\n[SECTION 4]\n\n\n\n\n[SECTION 5]\n\n\n\n\n[SECTION 6]"
+    "objectID": "nextjs.html",
+    "href": "nextjs.html",
+    "title": "NextJS",
+    "section": "",
+    "text": "Installieren Sie Homebrew, falls noch nicht vorhanden.\n\nZum Pfad hinzufügen\necho ’eval “\\((/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"\\)(/opt/homebrew/bin/brew shellenv)”\n\nÖffnen Sie das Terminal und führen Sie den folgenden Befehl aus, um Node.js und npm zu installieren:\n\nbrew install node\n\nÜberprüfen Sie die Installation mit:\n\nFür die Node.js-Version.\nnode -v\nFür die npm-Version\nnpm -v"
   },
   {
-    "objectID": "template.html#slide-title",
-    "href": "template.html#slide-title",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n\n[KEY POINT 2]: [DESCRIPTION]\n\n[KEY POINT 3]: [DESCRIPTION]\n\n[KEY POINT 4]:\n\n[SUB-POINT 1] [DESCRIPTION]\n\n[SUB-POINT 2] [DESCRIPTION]"
+    "objectID": "nextjs.html#installation",
+    "href": "nextjs.html#installation",
+    "title": "NextJS",
+    "section": "",
+    "text": "Installieren Sie Homebrew, falls noch nicht vorhanden.\n\nZum Pfad hinzufügen\necho ’eval “\\((/opt/homebrew/bin/brew shellenv)\"' &gt;&gt; ~/.zprofile\neval \"\\)(/opt/homebrew/bin/brew shellenv)”\n\nÖffnen Sie das Terminal und führen Sie den folgenden Befehl aus, um Node.js und npm zu installieren:\n\nbrew install node\n\nÜberprüfen Sie die Installation mit:\n\nFür die Node.js-Version.\nnode -v\nFür die npm-Version\nnpm -v"
   },
   {
-    "objectID": "template.html#slide-title-1",
-    "href": "template.html#slide-title-1",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n[BULLET POINT 1]: [DESCRIPTION]\n\n[BULLET POINT 2]: [DESCRIPTION]\n\n[BULLET POINT 3]: [DESCRIPTION]\n\n[BULLET POINT 4]: [DESCRIPTION]"
+    "objectID": "nextjs.html#nextjs",
+    "href": "nextjs.html#nextjs",
+    "title": "NextJS",
+    "section": "NextJS",
+    "text": "NextJS\nNext js installieren\nnpx create-next-app@latest\nTheme:\nnpx shadcn@latest init"
   },
   {
-    "objectID": "template.html#slide-title-2",
-    "href": "template.html#slide-title-2",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]\n\n\n\n\n\n\n[WARNING MESSAGE]\n\n\n\n\n\n\n\n\n[TIP MESSAGE]"
-  },
-  {
-    "objectID": "template.html#slide-title-3",
-    "href": "template.html#slide-title-3",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
-  },
-  {
-    "objectID": "template.html#slide-title-with-animation-or-media",
-    "href": "template.html#slide-title-with-animation-or-media",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE WITH ANIMATION OR MEDIA]",
-    "text": "[SLIDE TITLE WITH ANIMATION OR MEDIA]"
-  },
-  {
-    "objectID": "template.html#slide-title-4",
-    "href": "template.html#slide-title-4",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
-  },
-  {
-    "objectID": "template.html#slide-title-5",
-    "href": "template.html#slide-title-5",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[CONTENT]\n[IMPORTANT NOTE]\n\n\n\n\n\n\n[TIP MESSAGE]"
-  },
-  {
-    "objectID": "template.html#slide-title-6",
-    "href": "template.html#slide-title-6",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]"
-  },
-  {
-    "objectID": "template.html#slide-title-with-animation-or-media-1",
-    "href": "template.html#slide-title-with-animation-or-media-1",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE WITH ANIMATION OR MEDIA]",
-    "text": "[SLIDE TITLE WITH ANIMATION OR MEDIA]"
-  },
-  {
-    "objectID": "template.html#slide-title-7",
-    "href": "template.html#slide-title-7",
-    "title": "[TITLE]",
-    "section": "[SLIDE TITLE]",
-    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
-  },
-  {
-    "objectID": "template.html#video-title",
-    "href": "template.html#video-title",
-    "title": "[TITLE]",
-    "section": "[VIDEO TITLE]",
-    "text": "[VIDEO TITLE]"
-  },
-  {
-    "objectID": "template.html#catalog-title",
-    "href": "template.html#catalog-title",
-    "title": "[TITLE]",
-    "section": "[CATALOG TITLE]",
-    "text": "[CATALOG TITLE]\n\n🔗 Link Title"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Online Marketing 2",
+    "section": "",
+    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n\n\nGenerative AI\n\n\n\n1\n1\nIntroduction\n📄 PDF\n\n\n2\n\nNo lecture\n\n\n\n3\n\nPython Setup\nSee weekly overview",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Semester Overview"
+    ]
   },
   {
     "objectID": "syllabus.html",
@@ -211,16 +153,95 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Online Marketing 2",
-    "section": "",
-    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n\n\nGenerative AI\n\n\n\n1\n1\nIntroduction\n📄 PDF\n\n\n2\n\nNo lecture\n\n\n\n3\n\nPython Setup\nSee weekly overview",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Semester Overview"
-    ]
+    "objectID": "template.html#table-of-contents",
+    "href": "template.html#table-of-contents",
+    "title": "[TITLE]",
+    "section": "[TABLE OF CONTENTS]",
+    "text": "[TABLE OF CONTENTS]\n\n\n\n[SECTION 1]\n\n\n\n\n[SECTION 2]\n\n\n\n\n[SECTION 3]\n\n\n\n\n[SECTION 4]\n\n\n\n\n[SECTION 5]\n\n\n\n\n[SECTION 6]"
+  },
+  {
+    "objectID": "template.html#slide-title",
+    "href": "template.html#slide-title",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n\n[KEY POINT 2]: [DESCRIPTION]\n\n[KEY POINT 3]: [DESCRIPTION]\n\n[KEY POINT 4]:\n\n[SUB-POINT 1] [DESCRIPTION]\n\n[SUB-POINT 2] [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#slide-title-1",
+    "href": "template.html#slide-title-1",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n[BULLET POINT 1]: [DESCRIPTION]\n\n[BULLET POINT 2]: [DESCRIPTION]\n\n[BULLET POINT 3]: [DESCRIPTION]\n\n[BULLET POINT 4]: [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#slide-title-2",
+    "href": "template.html#slide-title-2",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]\n\n\n\n\n\n\n[WARNING MESSAGE]\n\n\n\n\n\n\n\n\n[TIP MESSAGE]"
+  },
+  {
+    "objectID": "template.html#slide-title-3",
+    "href": "template.html#slide-title-3",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#slide-title-with-animation-or-media",
+    "href": "template.html#slide-title-with-animation-or-media",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE WITH ANIMATION OR MEDIA]",
+    "text": "[SLIDE TITLE WITH ANIMATION OR MEDIA]"
+  },
+  {
+    "objectID": "template.html#slide-title-4",
+    "href": "template.html#slide-title-4",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#slide-title-5",
+    "href": "template.html#slide-title-5",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[CONTENT]\n[IMPORTANT NOTE]\n\n\n\n\n\n\n[TIP MESSAGE]"
+  },
+  {
+    "objectID": "template.html#slide-title-6",
+    "href": "template.html#slide-title-6",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#slide-title-with-animation-or-media-1",
+    "href": "template.html#slide-title-with-animation-or-media-1",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE WITH ANIMATION OR MEDIA]",
+    "text": "[SLIDE TITLE WITH ANIMATION OR MEDIA]"
+  },
+  {
+    "objectID": "template.html#slide-title-7",
+    "href": "template.html#slide-title-7",
+    "title": "[TITLE]",
+    "section": "[SLIDE TITLE]",
+    "text": "[SLIDE TITLE]\n\n\n\n\n\nImage Description\n\n\n\n\n[KEY POINT 1]: [DESCRIPTION]\n[KEY POINT 2]: [DESCRIPTION]\n[KEY POINT 3]: [DESCRIPTION]"
+  },
+  {
+    "objectID": "template.html#video-title",
+    "href": "template.html#video-title",
+    "title": "[TITLE]",
+    "section": "[VIDEO TITLE]",
+    "text": "[VIDEO TITLE]"
+  },
+  {
+    "objectID": "template.html#catalog-title",
+    "href": "template.html#catalog-title",
+    "title": "[TITLE]",
+    "section": "[CATALOG TITLE]",
+    "text": "[CATALOG TITLE]\n\n🔗 Link Title"
   },
   {
     "objectID": "weeks.html",
@@ -335,7 +356,7 @@
     "href": "weeks.html#step-4-activate-the-virtual-environment",
     "title": "Weekly overview",
     "section": "✅ Step 4: Activate the Virtual Environment",
-    "text": "✅ Step 4: Activate the Virtual Environment\n\nFor macOS and Linux:\nsource .venv/bin/activate\n\n\nFor Windows (using Command Prompt):\nFor PowerShell:\n.venv\\Scripts\\Activate.ps1",
+    "text": "✅ Step 4: Activate the Virtual Environment\n\nFor macOS and Linux:\nsource .venv/bin/activate\n\n\nFor Windows (using PowerShell):\nFor PowerShell:\n.venv\\Scripts\\Activate.ps1",
     "crumbs": [
       "Home",
       "Course information",
