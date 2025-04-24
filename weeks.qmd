@@ -541,3 +541,7 @@ You can find full documentation for the Responses API here:
 These resources explain how to structure your API calls, the different response types, and how to interpret the results.
 
 ---
+
+
+# Week 5
+
