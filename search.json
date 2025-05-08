@@ -21,138 +21,6 @@
     "text": "NextJS\nNext js installieren\nnpx create-next-app@latest\nTheme:\nnpx shadcn@latest init"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Online Marketing 2",
-    "section": "",
-    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nNr\nTopic\nMaterial\n\n\n\n\n\n\nGenerative AI\n\n\n\n1\n1\nIntroduction\n📄 PDF\n\n\n2\n\nNo lecture\n\n\n\n3\n\nPython Setup\nSee weekly overview",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Semester Overview"
-    ]
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-info",
-    "href": "syllabus.html#course-info",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#learning-objectives",
-    "href": "syllabus.html#learning-objectives",
-    "title": "Syllabus",
-    "section": "Learning objectives",
-    "text": "Learning objectives\nIn this course you will gain skills in the following domains:\n\nGenerative Artificial Intelligence:\n\nUnderstand the basics of Generative AI.\nExplore prompt engineering.\nCreate your own marketing applications using Python.\n\nMastery of Analytical Tools:\n\nGain proficiency in using Google Analytics and other web analytics tools to gather and analyze data.\nImplement web tracking to monitor user interactions and gather actionable insights.\n\nData Analysis and Visualization:\n\nConduct data analysis using Excel, SQL and Python + Pandas.\nCreate and interpret dashboards for marketing analysis.\nDesign and build applications with dashboards to visualize data and insights.\nCustomize dashboards for marketing analysts to enable data-driven decision-making.",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#assessment",
-    "href": "syllabus.html#assessment",
-    "title": "Syllabus",
-    "section": "Assessment",
-    "text": "Assessment\nAssessment for the course is comprised of these components:\n\nGoogle Analytics 4 Certificate\nCreation of a Generative AI Marketing Application\nE-Exam\n\nLate submission policy for task 1 and 2: 25% point reduction per 24-hour period\n\nGoogle Analytics Certificate\nIn this course, a pivotal assessment entails obtaining the - Google Analytics from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data.\nBy undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course.\nThe certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally.\n\n\nGenerative AI Application\nCreate a Generative AI application for a marketing purpose. More details are provided in the project description\nThe focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data.\nAdditionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.\nBy creating a Generatice AI-driven marketing application, you’ll demonstrate your understanding of foundational concepts in generative AI.\nMore information about the specific requirements will be provided during the semester.",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#sec-exams",
-    "href": "syllabus.html#sec-exams",
-    "title": "Syllabus",
-    "section": "Exam",
-    "text": "Exam\nThere will be one E-exam at the end of the semester. More details about the exam will be given during the semester.",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "project-description.html",
-    "href": "project-description.html",
-    "title": "AI Marketing Agent Project",
-    "section": "",
-    "text": "Build a generative AI application for marketing or sales that demonstrates your mastery of AI prompt engineering and application development in Python. Use the OpenAI API to create a functional, ethical solution with practical business value.",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Project Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#application-areas",
-    "href": "project-description.html#application-areas",
-    "title": "AI Marketing Agent Project",
-    "section": "Application Areas",
-    "text": "Application Areas\n\nAdvertising copy generation\nProduct descriptions\nMarketing strategy development\nCampaign ideation\nPersonalized customer communications\nSocial media content optimization\nEmail marketing automation\nSales pitch creation\nMarket analysis reports\n…",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Project Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#project-requirements",
-    "href": "project-description.html#project-requirements",
-    "title": "AI Marketing Agent Project",
-    "section": "Project Requirements",
-    "text": "Project Requirements\n\nGitHub Repository\n\nCreate a private GitHub repository named “genai”\nInclude complete source code with clear organization\nProvide a comprehensive README.md containing:\n\nProject overview and business objectives\nClear installation and setup instructions (you need to use uv to setup the project)\nUsage guide with examples\nTechnical implementation details\nReflection on challenges and learnings\n\n\n\n\nAI Agent Implementation\n\nDesign an AI agent tailored to a specific marketing/sales use case\nImplement advanced prompt engineering techniques\nDocument your prompt strategy with examples\nIncorporate ethical considerations and guardrails\nOptimize API usage for cost and performance\n\n\n\nApplication Development\n\nBuild a responsive UI using Streamlit, Gradio, React, or NextJS\nInclude these core features:\n\nIntuitive input fields for marketing parameters\nLanguage switching capability (German/English)\nResults display with formatting options\nRefinement controls for outputs\nExport functionality or usage of APIs (text, etc.)\n\nImplement error handling, input validation, and user feedback\n\n\n\nDemo Video\n\nCreate a 2-minute screencast demonstrating:\n\nCore application workflow\nKey technical features\nImplementation challenges and solutions\nBusiness value and real-world applications",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Project Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#submission-process",
-    "href": "project-description.html#submission-process",
-    "title": "AI Marketing Agent Project",
-    "section": "Submission Process",
-    "text": "Submission Process\n\nUpload to Moodle:\n\nGitHub repository link (ensure you’ve added me as a collaborator)\nDemo video link\n\nDeadline: May 30, 2025, 23:59 CET\n\nLate submission policy: 25% point reduction per 24-hour period",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Project Description"
-    ]
-  },
-  {
-    "objectID": "project-description.html#evaluation-criteria",
-    "href": "project-description.html#evaluation-criteria",
-    "title": "AI Marketing Agent Project",
-    "section": "Evaluation Criteria",
-    "text": "Evaluation Criteria\nTotal: 100 points (80 points required to pass)\n\nTechnical Implementation (45 points)\n\nAI agent functionality and performance (35)\n\nPrompt engineering effectiveness (15)\nOutput quality and relevance (10)\nError handling and edge cases (5)\nAPI integration (5)\n\nGitHub repository quality (10)\n\nCode organization and documentation (5)\nCommit history and collaboration readiness (5)\n\n\n\n\nInnovation & Applicability (25 points)\n\nOriginality of concept (15)\n\nNovel application of AI techniques (10)\nCreative problem-solving (5)\n\nBusiness value (10)\n\nMarket relevance (5)\nImplementation feasibility (5)\n\n\n\n\nDocumentation (20 points)\n\nREADME.md quality (10)\n\nCompleteness and clarity (5)\nTechnical accuracy (5)\n\nPrompt engineering documentation (10)\n\nTechnique explanation (5)\nPerformance analysis (5)\n\n\n\n\nPresentation (10 points)\n\nVideo demo effectiveness (10)\n\nFeature demonstration (5)\nCommunication clarity (5)",
-    "crumbs": [
-      "Home",
-      "Course information",
-      "Project Description"
-    ]
-  },
-  {
     "objectID": "template.html#table-of-contents",
     "href": "template.html#table-of-contents",
     "title": "[TITLE]",
@@ -397,6 +265,138 @@
       "Home",
       "Course information",
       "Weekly Overview"
+    ]
+  },
+  {
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "AI Marketing Agent Project",
+    "section": "",
+    "text": "Build a generative AI application for marketing or sales that demonstrates your mastery of AI prompt engineering and application development in Python. Use the OpenAI API to create a functional, ethical solution with practical business value.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#application-areas",
+    "href": "project-description.html#application-areas",
+    "title": "AI Marketing Agent Project",
+    "section": "Application Areas",
+    "text": "Application Areas\n\nAdvertising copy generation\nProduct descriptions\nMarketing strategy development\nCampaign ideation\nPersonalized customer communications\nSocial media content optimization\nEmail marketing automation\nSales pitch creation\nMarket analysis reports\n…",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#project-requirements",
+    "href": "project-description.html#project-requirements",
+    "title": "AI Marketing Agent Project",
+    "section": "Project Requirements",
+    "text": "Project Requirements\n\nGitHub Repository\n\nCreate a private GitHub repository named “genai”\nInclude complete source code with clear organization\nProvide a comprehensive README.md containing:\n\nProject overview and business objectives\nClear installation and setup instructions (you need to use uv to setup the project)\nUsage guide with examples\nTechnical implementation details\nReflection on challenges and learnings\n\n\n\n\nAI Agent Implementation\n\nDesign an AI agent tailored to a specific marketing/sales use case\nImplement advanced prompt engineering techniques\nDocument your prompt strategy with examples\nIncorporate ethical considerations and guardrails\nOptimize API usage for cost and performance\n\n\n\nApplication Development\n\nBuild a responsive UI using Streamlit, Gradio, React, or NextJS\nInclude these core features:\n\nIntuitive input fields for marketing parameters\nLanguage switching capability (German/English)\nResults display with formatting options\nRefinement controls for outputs\nExport functionality or usage of APIs (text, etc.)\n\nImplement error handling, input validation, and user feedback\n\n\n\nDemo Video\n\nCreate a 2-minute screencast demonstrating:\n\nCore application workflow\nKey technical features\nImplementation challenges and solutions\nBusiness value and real-world applications",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#submission-process",
+    "href": "project-description.html#submission-process",
+    "title": "AI Marketing Agent Project",
+    "section": "Submission Process",
+    "text": "Submission Process\n\nUpload to Moodle:\n\nGitHub repository link (ensure you’ve added me as a collaborator)\nDemo video link\n\nDeadline: June 26, 2025, 23:59 CET\n\nLate submission policy: 25% point reduction per 24-hour period",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "project-description.html#evaluation-criteria",
+    "href": "project-description.html#evaluation-criteria",
+    "title": "AI Marketing Agent Project",
+    "section": "Evaluation Criteria",
+    "text": "Evaluation Criteria\nTotal: 100 points (80 points required to pass)\n\nTechnical Implementation (45 points)\n\nAI agent functionality and performance (35)\n\nPrompt engineering effectiveness (15)\nOutput quality and relevance (10)\nError handling and edge cases (5)\nAPI integration (5)\n\nGitHub repository quality (10)\n\nCode organization and documentation (5)\nCommit history and collaboration readiness (5)\n\n\n\n\nInnovation & Applicability (25 points)\n\nOriginality of concept (15)\n\nNovel application of AI techniques (10)\nCreative problem-solving (5)\n\nBusiness value (10)\n\nMarket relevance (5)\nImplementation feasibility (5)\n\n\n\n\nDocumentation (20 points)\n\nREADME.md quality (10)\n\nCompleteness and clarity (5)\nTechnical accuracy (5)\n\nPrompt engineering documentation (10)\n\nTechnique explanation (5)\nPerformance analysis (5)\n\n\n\n\nPresentation (10 points)\n\nVideo demo effectiveness (10)\n\nFeature demonstration (5)\nCommunication clarity (5)",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Project Description"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-info",
+    "href": "syllabus.html#course-info",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nExercise\nWednesday\n10:45 - 11:30\nRoom s205\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom s205",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nIn this course you will gain skills in the following domains:\n\nGenerative Artificial Intelligence:\n\nUnderstand the basics of Generative AI.\nExplore prompt engineering.\nCreate your own marketing applications using Python.\n\nMastery of Analytical Tools:\n\nGain proficiency in using Google Analytics and other web analytics tools to gather and analyze data.\nImplement web tracking to monitor user interactions and gather actionable insights.\n\nData Analysis and Visualization:\n\nConduct data analysis using Excel, SQL and Python + Pandas.\nCreate and interpret dashboards for marketing analysis.\nDesign and build applications with dashboards to visualize data and insights.\nCustomize dashboards for marketing analysts to enable data-driven decision-making.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assessment",
+    "href": "syllabus.html#assessment",
+    "title": "Syllabus",
+    "section": "Assessment",
+    "text": "Assessment\nAssessment for the course is comprised of these components:\n\nGoogle Analytics 4 Certificate\nCreation of a Generative AI Marketing Application\nE-Exam\n\nLate submission policy for task 1 and 2: 25% point reduction per 24-hour period\n\nGoogle Analytics Certificate\nIn this course, a pivotal assessment entails obtaining the - Google Analytics from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data.\nBy undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course.\nThe certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally.\n\n\nGenerative AI Application\nCreate a Generative AI application for a marketing purpose. More details are provided in the project description\nThe focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data.\nAdditionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.\nBy creating a Generatice AI-driven marketing application, you’ll demonstrate your understanding of foundational concepts in generative AI.\nMore information about the specific requirements will be provided during the semester.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-exams",
+    "href": "syllabus.html#sec-exams",
+    "title": "Syllabus",
+    "section": "Exam",
+    "text": "Exam\nThere will be one E-exam at the end of the semester. More details about the exam will be given during the semester.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Online Marketing 2",
+    "section": "",
+    "text": "This page contains an outline of the topics and content for the course.\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses.\n\n\n\n\n\n\nWeek\nTopic\nMaterial\n\n\n\n\n\nGenerative AI\n\n\n\n1\nIntroduction\n📄 PDF\n\n\n2\nNo lecture\n\n\n\n3\nPython Setup\nSee weekly overview\n\n\n\nWeb Analytics\n\n\n\n4\n\nWeb Analytics\n\n\n\nGenerative AI\n\n\n\n5\nMeetings\n\n\n\n5\nMeetings",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Semester Overview"
     ]
   }
 ]
