@@ -9,9 +9,14 @@ This page contains an outline of the topics and content for the course.
 This schedule will be updated as the semester progresses.
 :::
 
-|Week|Nr| Topic              |	Material	                            |
-|---  |---|	---             |	---	                                    |	
-|    |  | **Generative AI**  |	        	                            |	
-|1   |1	|	 Introduction    |	[📄 PDF](slides/01-intro-genai.pdf)      |	
-|2   |	|	 No lecture    |	                                         |
-|3   |	|	 Python Setup    |	 [See weekly overview](weeks#week-3)      |			
+|Week| Topic              |	Material	                            |
+|--- |	---             |	---	                                    |	
+|    | **Generative AI**  |	        	                            |	
+|1   |	 Introduction    |	[📄 PDF](slides/01-intro-genai.pdf)      |	
+|2   |	 No lecture    |	                                         |
+|3   |	 Python Setup    |	 [See weekly overview](weeks#week-3)      |			
+|    | **Web Analytics**  |	        	                            |	
+|4   |	|	 Web Analytics    |	 [See Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=21929)      |	
+|    | **Generative AI**  |	        	                            |	
+|5   |	 Meetings    |	                                         |
+|5   |	 Meetings    |	                                         |

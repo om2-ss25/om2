@@ -545,3 +545,13 @@ These resources explain how to structure your API calls, the different response 
 
 # Week 5
 
+- Code-Tutorial
+- Video of the lecture [see Moodle](https://moodle.hdm-stuttgart.de/mod/forum/discuss.php?d=135301)
+
+# Week 6
+
+- Online-Appointments
+
+# Week 7
+
+- Online-Appointments
