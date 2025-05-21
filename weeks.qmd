@@ -555,3 +555,9 @@ These resources explain how to structure your API calls, the different response 
 # Week 7
 
 - Online-Appointments
+
+# Week 8
+
+- News from the world of AI
+
+- Social Media Analytics
