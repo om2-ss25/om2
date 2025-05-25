@@ -18,4 +18,6 @@ This schedule will be updated as the semester progresses.
 |5   |	 Code Tutorial    |	                                         |
 |6   |	 Meetings    |	                                         |
 |7   |	 Meetings    |	                                         |
+|8   |	 COMPASS-Prompt  |	 [📄 PDF](slides/COMPASS.pdf)    |
+
 |8   |	 Social Media Analytics   |	 [See Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=21929)    |

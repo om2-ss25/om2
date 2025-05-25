@@ -559,5 +559,5 @@ These resources explain how to structure your API calls, the different response 
 # Week 8
 
 - News from the world of AI
-
+- COMPASS-Framework
 - Social Media Analytics
