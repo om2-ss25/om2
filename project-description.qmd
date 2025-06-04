@@ -37,7 +37,6 @@ Build a generative AI application for marketing or sales that demonstrates your 
 - Design an AI agent tailored to a specific marketing/sales use case
 - Implement advanced prompt engineering techniques
 - Document your prompt strategy with examples
-- Incorporate ethical considerations and guardrails
 - Optimize API usage for cost and performance
 
 ### Application Development
